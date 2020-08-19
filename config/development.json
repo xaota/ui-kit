@@ -1,0 +1,20 @@
+{
+  "server": {
+    "host": "localhost",
+
+    "http": {
+      "port": 8888
+    },
+
+    "serve": "./source/client",
+    "mount": {
+      "/javascript-std-lib": "../javascript-std-lib",
+      "/javascript-markdown": "../javascript-markdown",
+      "/@xaota/ui": "../ui",
+      "/@xaota/web": "../web",
+
+      "/javascript-algebra": "./node_modules/javascript-algebra",
+      "/javascript-canvas": "./node_modules/javascript-canvas"
+    }
+  }
+}

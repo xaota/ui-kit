@@ -1,0 +1,70 @@
+# Поисковая строка
+Отображение поисковой строки
+
+> MaterialSearch
+
+```javascript
+import UISearch from 'javascript-material/search.js';
+```
+
+## Поисковая панель
+<ui-html>
+  <ui-search>поиск</ui-search>
+  <ui-search right>поиск</ui-search>
+</ui-html>
+
+### Динамическая поисковая панель
+<ui-html>
+  <ui-search fold>поиск</ui-search>
+  <ui-search fold right>поиск</ui-search>
+</ui-html>
+
+## Поисковые посдсказки / результаты
+> MaterialSearchDrop
+
+```javascript
+import UISearchDrop from 'javascript-material/search-drop.js';
+
+// также используется
+import UIListItem from 'javascript-material/list-item.js';
+```
+
+<ui-html>
+  <ui-search-drop label="поиск">
+    <ui-list-item>Элемент 1</ui-list-item>
+    <ui-list-item>Элемент 2</ui-list-item>
+    <ui-list-item>Элемент 3</ui-list-item>
+    <ui-list-item>Элемент 4</ui-list-item>
+    <ui-list-item>Элемент 5</ui-list-item>
+  </ui-search-drop>
+</ui-html>
+
+<ui-html>
+  <ui-search-drop label="поиск" right>
+    <ui-list-item>Элемент 1</ui-list-item>
+    <ui-list-item>Элемент 2</ui-list-item>
+    <ui-list-item>Элемент 3</ui-list-item>
+    <ui-list-item>Элемент 4</ui-list-item>
+    <ui-list-item>Элемент 5</ui-list-item>
+  </ui-search-drop>
+</ui-html>
+
+<ui-html>
+  <ui-search-drop label="поиск" fold>
+    <ui-list-item>Элемент 1</ui-list-item>
+    <ui-list-item>Элемент 2</ui-list-item>
+    <ui-list-item>Элемент 3</ui-list-item>
+    <ui-list-item>Элемент 4</ui-list-item>
+    <ui-list-item>Элемент 5</ui-list-item>
+  </ui-search-drop>
+</ui-html>
+
+<ui-html>
+  <ui-search-drop label="поиск" fold right>
+    <ui-list-item>Элемент 1</ui-list-item>
+    <ui-list-item>Элемент 2</ui-list-item>
+    <ui-list-item>Элемент 3</ui-list-item>
+    <ui-list-item>Элемент 4</ui-list-item>
+    <ui-list-item>Элемент 5</ui-list-item>
+  </ui-search-drop>
+</ui-html>

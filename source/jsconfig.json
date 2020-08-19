@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@xaota/ui": ["../../ui"],
+      "@xaota/web": ["../../web/components"],
+      "javascript-std-lib": ["../../javascript-std-lib"],
+      "javascript-markdown": ["../../javascript-markdown"],
+      "javascript-markdown/*": ["../../javascript-markdown/library/*"],
+      "javascript-color": ["../../javascript-color"],
+      "javascript-color/*": ["../../javascript-color/library/*"],
+      "javascript-canvas": ["../../javascript-canvas"],
+      "javascript-canvas/*": ["../../javascript-canvas/library/*"]
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import 'import.css';
+@import 'palette.css';
+
+:root {
+  --background-light: #fff;
+  --background: #eee;
+  --background-dark: #ddd;
+
+  --foreground-light: #222;
+  --foreground: #111;
+  --foreground-dark: #000;
+
+  --aside: 280px;
+  --padding: var(--indent) calc(var(--indent) / 2);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color:      var(--foreground);
+  overscroll-behavior: none;
+
+  display: grid;
+  grid-template-columns: var(--aside) auto;
+  /* grid-template-rows: fit-content(120px) auto; */
+  grid-template-areas: "aside main";
+  grid-column-gap: 2px;
+  height: var(--height);
+
+  font-family: var(--font);
+
+  font-size: 16px;
+  font-weight: 200;
+
+  height: 100vh;
+  /* margin-top: calc(60px); */
+  /* overflow: hidden; */
+}
+
+ui-panel {
+  grid-row: aside;
+  grid-column: aside;
+}
+
+ui-panel ui-fieldset a {
+  display: block;
+  margin: 1em;
+  cursor: pointer;
+}
+
+ui-panel ui-fieldset a:hover {
+  color: green;
+}
+
+ui-panel ui-fieldset a.active {
+  color: red;
+}
+
+ui-fab {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+}
