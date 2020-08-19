@@ -4,11 +4,11 @@
 > MaterialFigure
 
 ```javascript
-import UIFigure  from 'javascript-material/figure.js';
+import UIFigure  from '@xaota/ui/figure.js';
 
 // также на этой странице использованы
-import UICaption from 'javascript-material/caption.js';
-import UIText    from 'javascript-material/text.js';
+import UICaption from '@xaota/ui/caption.js';
+import UIText    from '@xaota/ui/text.js';
 ```
 
 <ui-html>

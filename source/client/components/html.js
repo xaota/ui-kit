@@ -21,7 +21,7 @@ const properties = {}
   export default class UIHTML extends Component {
     static template = html`
       <template>
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css" />
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css" />
         <style>${style}</style>
         <slot></slot>
         <pre lang="html"></pre>

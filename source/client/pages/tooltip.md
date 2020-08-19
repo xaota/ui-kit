@@ -4,11 +4,11 @@
 > MaterialTooltip
 
 ```javascript
-import UITooltip from 'javascript-material/tooltip.js';
+import UITooltip from '@xaota/ui/tooltip.js';
 
 // также на этой странице использованы
-import UIButton from 'javascript-material/button.js';
-import UIPaper  from 'javascript-material/paper.js';
+import UIButton from '@xaota/ui/button.js';
+import UIPaper  from '@xaota/ui/paper.js';
 ```
 
 ## Подсказка к элементу при наведении

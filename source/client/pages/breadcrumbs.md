@@ -4,7 +4,7 @@
 > MaterialBreadcrumbs
 
 ```javascript
-import UIBreadcrumbs from 'javascript-material/breadcrumbs.js';
+import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';
 ```
 
 ## Список элементов

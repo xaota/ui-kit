@@ -4,10 +4,10 @@
 > MaterialFieldset
 
 ```javascript
-import UIFieldset from 'javascript-material/fieldset.js';
+import UIFieldset from '@xaota/ui/fieldset.js';
 // также на этой странице используются
-import UIButton   from 'javascript-material/button.js';
-import UIInput    from 'javascript-material/input.js';
+import UIButton   from '@xaota/ui/button.js';
+import UIInput    from '@xaota/ui/input.js';
 ```
 
 <ui-html>

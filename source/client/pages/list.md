@@ -4,8 +4,8 @@
 > MaterialList, MaterialListItem
 
 ```javascript
-import UIList     from 'javascript-material/list.js';
-import UIListItem from 'javascript-material/list-item.js';
+import UIList     from '@xaota/ui/list.js';
+import UIListItem from '@xaota/ui/list-item.js';
 ```
 
 ## Список элементов

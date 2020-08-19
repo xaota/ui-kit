@@ -4,8 +4,8 @@
 > MaterialTabs
 
 ```javascript
-import UITabs     from 'javascript-material/tabs.js';
-import UITabsItem from 'javascript-material/tabs-item.js';
+import UITabs     from '@xaota/ui/tabs.js';
+import UITabsItem from '@xaota/ui/tabs-item.js';
 ```
 
 <ui-html>

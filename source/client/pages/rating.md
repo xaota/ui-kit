@@ -4,7 +4,7 @@
 > MaterialRating
 
 ```javascript
-import UIRating from 'javascript-material/rating.js';
+import UIRating from '@xaota/ui/rating.js';
 ```
 
 <ui-html>

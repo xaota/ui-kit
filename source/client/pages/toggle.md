@@ -5,7 +5,7 @@
 > MaterialSwitch
 
 ```javascript
-import UISwitch from 'javascript-material/switch.js';
+import UISwitch from '@xaota/ui/switch.js';
 ```
 
 <ui-html>
@@ -19,7 +19,7 @@ import UISwitch from 'javascript-material/switch.js';
 > MaterialCheckbox
 
 ```javascript
-import UICheckbox from 'javascript-material/checkbox.js';
+import UICheckbox from '@xaota/ui/checkbox.js';
 ```
 
 <ui-html>
@@ -35,7 +35,7 @@ import UICheckbox from 'javascript-material/checkbox.js';
 > MaterialRadio
 
 ```javascript
-import UIRadio from 'javascript-material/radio.js';
+import UIRadio from '@xaota/ui/radio.js';
 ```
 <ui-html>
   <ui-radio value="a" checked></ui-radio>
@@ -46,8 +46,8 @@ import UIRadio from 'javascript-material/radio.js';
 
 ### Группа переключателей
 ```javascript
-import UIRadioGroup from 'javascript-material/radio-group.js';
-import UIRadio      from 'javascript-material/radio.js';
+import UIRadioGroup from '@xaota/ui/radio-group.js';
+import UIRadio      from '@xaota/ui/radio.js';
 ```
 
 <ui-html>

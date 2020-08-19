@@ -4,13 +4,13 @@
 > MaterialDrop
 
 ```javascript
-import UIDropRoot from 'javascript-material/drop-root.js';
-import UIDrop     from 'javascript-material/drop.js';
+import UIDropRoot from '@xaota/ui/drop-root.js';
+import UIDrop     from '@xaota/ui/drop.js';
 
 // также на этой странице использованы
-import UIButton   from 'javascript-material/button.js';
-import UIList     from 'javascript-material/list.js';
-import UIListItem from 'javascript-material/list-item.js';
+import UIButton   from '@xaota/ui/button.js';
+import UIList     from '@xaota/ui/list.js';
+import UIListItem from '@xaota/ui/list-item.js';
 ```
 
 <ui-html>

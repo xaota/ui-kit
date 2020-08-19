@@ -5,7 +5,7 @@
 > MaterialMeter
 
 ```javascript
-import UIMeter from 'javascript-material/meter.js';
+import UIMeter from '@xaota/ui/meter.js';
 ```
 
 <ui-html>
@@ -17,7 +17,7 @@ import UIMeter from 'javascript-material/meter.js';
 > MaterialProgress
 
 ```javascript
-import UIProgress from 'javascript-material/progress.js';
+import UIProgress from '@xaota/ui/progress.js';
 ```
 
 <ui-html>
@@ -28,7 +28,7 @@ import UIProgress from 'javascript-material/progress.js';
 > MaterialLoader
 
 ```javascript
-import UILoader from 'javascript-material/loader.js';
+import UILoader from '@xaota/ui/loader.js';
 ```
 
 <ui-html>

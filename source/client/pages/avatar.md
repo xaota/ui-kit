@@ -4,7 +4,7 @@
 > MaterialAvatar
 
 ```javascript
-import UIAvatar from 'javascript-material/avatar.js';
+import UIAvatar from '@xaota/ui/avatar.js';
 ```
 
 <view-source>

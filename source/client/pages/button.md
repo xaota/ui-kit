@@ -3,7 +3,7 @@
 Элемент, с помощью которого пользователь может совершить действие.
 
 ```javascript
-import UIButton from `javascript-material/button.js`;
+import UIButton from `@xaota/ui/button.js`;
 ```
 
 ## Виды кнопок
@@ -104,7 +104,7 @@ const buttonC = new MaterialButton({label: 'текст', mode: 'primary', text: 
 
 ---
 ```javascript
-import UIButtonIcon from 'javascript-material/button-icon.js';
+import UIButtonIcon from '@xaota/ui/button-icon.js';
 ```
 
 > MaterialButtonIcon
@@ -128,7 +128,7 @@ import UIButtonIcon from 'javascript-material/button-icon.js';
 > MaterialButtonBack
 
 ```javascript
-import UIButtonBack from 'javascript-material/button-back.js';
+import UIButtonBack from '@xaota/ui/button-back.js';
 ```
 
 <ui-html>
@@ -140,12 +140,12 @@ import UIButtonBack from 'javascript-material/button-back.js';
 Используется для отображения системного меню выбора файла
 
 ```javascript
-import UIButtonUpload from 'javascript-material/button-upload.js';
+import UIButtonUpload from '@xaota/ui/button-upload.js';
 
 // дополнительные варианты кнопок
-import UIButtonUploadIcon        from 'javascript-material/button-upload-icon.js';
-import UIButtonUploadTooltip     from 'javascript-material/button-upload-tooltip.js';
-import UIButtonUploadTooltipIcon from 'javascript-material/button-upload-tooltip-icon.js';
+import UIButtonUploadIcon        from '@xaota/ui/button-upload-icon.js';
+import UIButtonUploadTooltip     from '@xaota/ui/button-upload-tooltip.js';
+import UIButtonUploadTooltipIcon from '@xaota/ui/button-upload-tooltip-icon.js';
 ```
 
 <ui-html>
@@ -175,10 +175,10 @@ import UIButtonUploadTooltipIcon from 'javascript-material/button-upload-tooltip
 ## Кнопка для голосового ввода
 
 ```javascript
-import UIButtonVoice from 'javascript-material/button-voice.js';
+import UIButtonVoice from '@xaota/ui/button-voice.js';
 
 // также в этом разделе используется
-import UITextarea from 'javascript-material/textarea.js';
+import UITextarea from '@xaota/ui/textarea.js';
 ```
 
 > Работает только по HTTPS, неполная поддержка браузерами (точно работает в Chrome)
@@ -205,10 +205,10 @@ ui-textarea {
 
 ## Кнопка для синтеза речи
 ```javascript
-import UIButtonSpeech from 'javascript-material/button-speech.js';
+import UIButtonSpeech from '@xaota/ui/button-speech.js';
 
 // также в этом разделе используется
-import UITextarea from 'javascript-material/textarea.js';
+import UITextarea from '@xaota/ui/textarea.js';
 ```
 
 <ui-html>
@@ -243,7 +243,7 @@ ui-textarea {
 ---
 
 ```javascript
-import UIButtonTooltip from 'javascript-material/button-tooltip.js';
+import UIButtonTooltip from '@xaota/ui/button-tooltip.js';
 ```
 
 > MaterialButtonTooltip
@@ -288,7 +288,7 @@ import UIButtonTooltip from 'javascript-material/button-tooltip.js';
 > MaterialButtonTooltipIcon
 
 ```javascript
-import UIButtonTooltipIcon from 'javascript-material/button-tooltip-icon.js';
+import UIButtonTooltipIcon from '@xaota/ui/button-tooltip-icon.js';
 ```
 
 <ui-html>

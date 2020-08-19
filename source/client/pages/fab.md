@@ -5,7 +5,7 @@
 
 ## Плавающие Кнопки
 ```javascript
-import UIFAB from 'javascript-material/fab.js';
+import UIFAB from '@xaota/ui/fab.js';
 ```
 
 <ui-html>

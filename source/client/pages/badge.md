@@ -4,10 +4,10 @@
 > MaterialBadge
 
 ```javascript
-import UIBadge from 'javascript-material/badge.js';
+import UIBadge from '@xaota/ui/badge.js';
 
 // также на этой странице используются
-import UIIcon from 'javascript-material/icon.js';
+import UIIcon from '@xaota/ui/icon.js';
 ```
 
 ## Простая метка

@@ -4,12 +4,12 @@
 > MaterialBanner
 
 ```javascript
-import UIBanner from 'javascript-material/banner.js';
+import UIBanner from '@xaota/ui/banner.js';
 
 // также на этой странице используются
-import UIAvatar from 'javascript-material/avatar.js';
-import UIButton from 'javascript-material/button.js';
-import UIIcon   from 'javascript-material/icon.js';
+import UIAvatar from '@xaota/ui/avatar.js';
+import UIButton from '@xaota/ui/button.js';
+import UIIcon   from '@xaota/ui/icon.js';
 ```
 
 <ui-html>

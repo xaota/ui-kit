@@ -2,7 +2,7 @@
 Элемент позволяющий упросить восприятие контента, скрыв менее важную информацию.
 
 ```javascript
-import UIExpand from 'javascript-material/expand.js';
+import UIExpand from '@xaota/ui/expand.js';
 ```
 
 ## Разворачиваемая панель

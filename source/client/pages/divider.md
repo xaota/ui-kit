@@ -4,11 +4,11 @@
 > MaterialDivider
 
 ```javascript
-import UIDivider from 'javascript-material/divider.js';
+import UIDivider from '@xaota/ui/divider.js';
 
 // также на этой странице используются
-import UIList     from 'javascript-material/list.js';
-import UIListItem from 'javascript-material/list-item.js';
+import UIList     from '@xaota/ui/list.js';
+import UIListItem from '@xaota/ui/list-item.js';
 ```
 
 ## Горизонтальное разделение

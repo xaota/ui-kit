@@ -4,7 +4,7 @@
 > MaterialIcon
 
 ```javascript
-import UIIcon from 'javascript-material/icon.js';
+import UIIcon from '@xaota/ui/icon.js';
 ```
 
 ## Folder & Cloud

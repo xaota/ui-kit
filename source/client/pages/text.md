@@ -3,7 +3,7 @@
 Отображает текстовое описание чего-либо
 
 ```javascript
-import UIText from 'javascript-material/text.js';
+import UIText from '@xaota/ui/text.js';
 ```
 
 <ui-html>

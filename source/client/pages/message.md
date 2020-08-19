@@ -4,12 +4,12 @@
 > MaterialMessage
 
 ```javascript
-import UIMessage from 'javascript-material/message.js';
+import UIMessage from '@xaota/ui/message.js';
 
 // также в примерах на этой странице используются
-import UIAvatar   from 'javascript-material/avatar.js';
-import UIKeyboard from 'javascript-material/keyboard.js'; // клавиатура
-import UIButton   from 'javascript-material/button.js';   // содержимое клавиатуры
+import UIAvatar   from '@xaota/ui/avatar.js';
+import UIKeyboard from '@xaota/ui/keyboard.js'; // клавиатура
+import UIButton   from '@xaota/ui/button.js';   // содержимое клавиатуры
 ```
 
 ### Сообщения с аватарами

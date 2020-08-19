@@ -4,10 +4,10 @@
 > MaterialSelect
 
 ```javascript
-import UISelect   from 'javascript-material/select.js';
+import UISelect   from '@xaota/ui/select.js';
 
 // также на этой странице используется
-import UIListItem from 'javascript-material/list-item.js';
+import UIListItem from '@xaota/ui/list-item.js';
 ```
 
 <ui-html>

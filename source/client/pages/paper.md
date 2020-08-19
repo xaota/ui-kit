@@ -4,7 +4,7 @@
 > MaterialPaper
 
 ```javascript
-import UIPaper from 'javascript-material/paper.js';
+import UIPaper from '@xaota/ui/paper.js';
 ```
 
 ## Простая страница

@@ -4,7 +4,7 @@
 > MaterialPanel
 
 ```javascript
-import UIPanel from 'javascript-material/panel.js';
+import UIPanel from '@xaota/ui/panel.js';
 ```
 
 <ui-html>

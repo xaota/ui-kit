@@ -4,8 +4,8 @@
 > MaterialSlider
 
 ```javascript
-import UISlider     from 'javascript-material/slider.js';
-import UISliderItem from 'javascript-material/slider-item.js';
+import UISlider     from '@xaota/ui/slider.js';
+import UISliderItem from '@xaota/ui/slider-item.js';
 ```
 
 > Размеры слайдера задаются `сss`-переменными `--width` и `--height` у элемента

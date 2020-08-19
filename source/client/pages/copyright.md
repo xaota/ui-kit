@@ -5,7 +5,7 @@
 > MaterialCopyright
 
 ```javascript
-import UICopyright from 'javascript-material/copyright.js';
+import UICopyright from '@xaota/ui/copyright.js';
 ```
 
 <ui-html>

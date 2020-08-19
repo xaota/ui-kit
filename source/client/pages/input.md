@@ -6,7 +6,7 @@
 > MaterialInput
 
 ```javascript
-import UIInput from 'javascript-material/input.js';
+import UIInput from '@xaota/ui/input.js';
 ```
 
 ### Текстовое поле
@@ -27,7 +27,7 @@ import UIInput from 'javascript-material/input.js';
 > MaterialTextarea
 
 ```javascript
-import UITextarea from 'javascript-material/textarea.js';
+import UITextarea from '@xaota/ui/textarea.js';
 ```
 
 <ui-html>
@@ -41,7 +41,7 @@ import UITextarea from 'javascript-material/textarea.js';
 > MaterialInputSlider
 
 ```javascript
-import UIInputSlider from 'javascript-material/input-slider.js';
+import UIInputSlider from '@xaota/ui/input-slider.js';
 ```
 ### Обычный слайдер
 
@@ -55,7 +55,7 @@ import UIInputSlider from 'javascript-material/input-slider.js';
 > MaterialInputColor
 
 ```javascript
-import UIInputColor from 'javascript-material/input-color.js';
+import UIInputColor from '@xaota/ui/input-color.js';
 ```
 
 <ui-html>
@@ -70,7 +70,7 @@ import UIInputColor from 'javascript-material/input-color.js';
 > MaterialInputCount
 
 ```javascript
-import UIInputCount from 'javascript-material/input-count.js';
+import UIInputCount from '@xaota/ui/input-count.js';
 ```
 
 <ui-html>
@@ -85,11 +85,11 @@ import UIInputCount from 'javascript-material/input-count.js';
 > MaterialInputChips
 
 ```javascript
-import UIInputChips from 'javascript-material/input-chips.js';
-import UIChip       from 'javascript-material/chip.js';
+import UIInputChips from '@xaota/ui/input-chips.js';
+import UIChip       from '@xaota/ui/chip.js';
 
 // альтернативный вариант
-// import UIChipTooltip from 'javascript-material/chip-tooltip.js';
+// import UIChipTooltip from '@xaota/ui/chip-tooltip.js';
 ```
 
 <ui-html>

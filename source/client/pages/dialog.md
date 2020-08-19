@@ -4,11 +4,11 @@
 > MaterialDialog
 
 ```javascript
-import UIDialog from 'javascript-material/dialog.js';
+import UIDialog from '@xaota/ui/dialog.js';
 
 // также на этой странице используются
-import UIText    from 'javascript-material/text.js';
-import UIButton  from 'javascript-material/button.js';
+import UIText    from '@xaota/ui/text.js';
+import UIButton  from '@xaota/ui/button.js';
 ```
 
 ## Модальное окно

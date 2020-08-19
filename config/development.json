@@ -8,13 +8,12 @@
 
     "serve": "./source/client",
     "mount": {
-      "/javascript-std-lib": "../javascript-std-lib",
-      "/javascript-markdown": "../javascript-markdown",
       "/@xaota/ui": "../ui",
       "/@xaota/web": "../web",
-
-      "/javascript-algebra": "./node_modules/javascript-algebra",
-      "/javascript-canvas": "./node_modules/javascript-canvas"
+      "/javascript-algebra": "../javascript-algebra",
+      "/javascript-canvas": "../javascript-canvas",
+      "/javascript-std-lib": "../javascript-std-lib",
+      "/javascript-markdown": "../javascript-markdown"
     }
   }
 }

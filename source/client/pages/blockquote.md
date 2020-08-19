@@ -4,7 +4,7 @@
 > MaterialBlockquote
 
 ```javascript
-import UIBlockquote from 'javascript-material/blockquote.js';
+import UIBlockquote from '@xaota/ui/blockquote.js';
 ```
 
 <ui-html>

@@ -4,7 +4,7 @@
 > MaterialBrick
 
 ```javascript
-import UIBrick from 'javascript-material/brick.js';
+import UIBrick from '@xaota/ui/brick.js';
 ```
 
 <ui-html>

@@ -4,7 +4,7 @@
 > MaterialSearch
 
 ```javascript
-import UISearch from 'javascript-material/search.js';
+import UISearch from '@xaota/ui/search.js';
 ```
 
 ## Поисковая панель
@@ -23,10 +23,10 @@ import UISearch from 'javascript-material/search.js';
 > MaterialSearchDrop
 
 ```javascript
-import UISearchDrop from 'javascript-material/search-drop.js';
+import UISearchDrop from '@xaota/ui/search-drop.js';
 
 // также используется
-import UIListItem from 'javascript-material/list-item.js';
+import UIListItem from '@xaota/ui/list-item.js';
 ```
 
 <ui-html>

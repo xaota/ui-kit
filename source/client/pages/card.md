@@ -4,14 +4,14 @@
 > MaterialCard
 
 ```javascript
-import UICard    from 'javascript-material/card.js';
+import UICard    from '@xaota/ui/card.js';
 
 // также на этой странице использованы
-import UIFigure  from 'javascript-material/figure.js';
-import UIButton  from 'javascript-material/button.js';
-import UICaption from 'javascript-material/caption.js';
-import UIText    from 'javascript-material/text.js';
-import UIIcon    from 'javascript-material/icon.js';
+import UIFigure  from '@xaota/ui/figure.js';
+import UIButton  from '@xaota/ui/button.js';
+import UICaption from '@xaota/ui/caption.js';
+import UIText    from '@xaota/ui/text.js';
+import UIIcon    from '@xaota/ui/icon.js';
 ```
 
 <ui-html>

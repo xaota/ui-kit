@@ -2,7 +2,7 @@
 Отображение нформации о введенных данных, параметре или действии
 
 ```javascript
-import UIChip from 'javascript-material/chip.js';
+import UIChip from '@xaota/ui/chip.js';
 ```
 ## Фишки
 > MaterialChip
@@ -25,7 +25,7 @@ import UIChip from 'javascript-material/chip.js';
 > MaterialChipTooltip
 
 ```javascript
-import UIChipTooltip from 'javascript-material/chip-tooltip.js';
+import UIChipTooltip from '@xaota/ui/chip-tooltip.js';
 ```
 
 ### Заливка цветом
@@ -45,11 +45,11 @@ import UIChipTooltip from 'javascript-material/chip-tooltip.js';
 ## Фишки с аватаром
 
 ```javascript
-import UIAvatar from 'javascript-material/avatar.js';
+import UIAvatar from '@xaota/ui/avatar.js';
 
-import UIChip   from 'javascript-material/chip.js';
+import UIChip   from '@xaota/ui/chip.js';
 // либо
-import UIChipTooltip from 'javascript-material/chip-tooltip.js';
+import UIChipTooltip from '@xaota/ui/chip-tooltip.js';
 ```
 
 <ui-html>

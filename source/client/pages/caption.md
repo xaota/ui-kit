@@ -4,7 +4,7 @@
 > MaterialCaption
 
 ```javascript
-import UICaption from 'javascript-material/caption.js';
+import UICaption from '@xaota/ui/caption.js';
 ```
 
 <ui-html>
