@@ -1,7 +1,7 @@
 # Вкладки
 Удобное переключение между несколькими разделами.
 
-> MaterialTabs
+> UITabs
 
 ```javascript
 import UITabs     from '@xaota/ui/tabs.js';

@@ -2,7 +2,7 @@
 # Копирайт
 Отображение информации об авторских правах
 
-> MaterialCopyright
+> UICopyright
 
 ```javascript
 import UICopyright from '@xaota/ui/copyright.js';

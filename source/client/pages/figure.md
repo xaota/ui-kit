@@ -1,7 +1,7 @@
 # Рамка
 Отображение медиаконтента и подпись.
 
-> MaterialFigure
+> UIFigure
 
 ```javascript
 import UIFigure  from '@xaota/ui/figure.js';

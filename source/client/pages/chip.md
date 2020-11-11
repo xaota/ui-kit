@@ -5,7 +5,7 @@
 import UIChip from '@xaota/ui/chip.js';
 ```
 ## Фишки
-> MaterialChip
+> UIChip
 
 ### Заливка
 <ui-html>
@@ -22,7 +22,7 @@ import UIChip from '@xaota/ui/chip.js';
 </ui-html>
 
 ## Фишки с подсказкой
-> MaterialChipTooltip
+> UIChipTooltip
 
 ```javascript
 import UIChipTooltip from '@xaota/ui/chip-tooltip.js';

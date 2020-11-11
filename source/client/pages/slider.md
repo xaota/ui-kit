@@ -1,7 +1,7 @@
 # Галерея
 Слайдер для переключения каких-либо элементов, например, изображений
 
-> MaterialSlider
+> UISlider
 
 ```javascript
 import UISlider     from '@xaota/ui/slider.js';

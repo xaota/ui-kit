@@ -1,7 +1,7 @@
 # Сообщения
 Отображение сообщений в быстрой переписке
 
-> MaterialMessage
+> UIMessage
 
 ```javascript
 import UIMessage from '@xaota/ui/message.js';

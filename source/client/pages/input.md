@@ -3,7 +3,7 @@
 
 ## Однострочные поля ввода
 
-> MaterialInput
+> UIInput
 
 ```javascript
 import UIInput from '@xaota/ui/input.js';
@@ -24,7 +24,7 @@ import UIInput from '@xaota/ui/input.js';
 
 ## Многострочное поле ввода
 
-> MaterialTextarea
+> UITextarea
 
 ```javascript
 import UITextarea from '@xaota/ui/textarea.js';
@@ -38,7 +38,7 @@ import UITextarea from '@xaota/ui/textarea.js';
 
 ## Слайдер
 
-> MaterialInputSlider
+> UIInputSlider
 
 ```javascript
 import UIInputSlider from '@xaota/ui/input-slider.js';
@@ -52,7 +52,7 @@ import UIInputSlider from '@xaota/ui/input-slider.js';
 
 ## Поле выбора цвета
 
-> MaterialInputColor
+> UIInputColor
 
 ```javascript
 import UIInputColor from '@xaota/ui/input-color.js';
@@ -67,7 +67,7 @@ import UIInputColor from '@xaota/ui/input-color.js';
 
 ## Поле ввода количества
 
-> MaterialInputCount
+> UIInputCount
 
 ```javascript
 import UIInputCount from '@xaota/ui/input-count.js';
@@ -82,7 +82,7 @@ import UIInputCount from '@xaota/ui/input-count.js';
 
 ## Поле ввода списка тегов
 
-> MaterialInputChips
+> UIInputChips
 
 ```javascript
 import UIInputChips from '@xaota/ui/input-chips.js';

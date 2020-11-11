@@ -1,7 +1,7 @@
 # Панель
 Блок с возможностью вертикального размещения элементов
 
-> MaterialPanel
+> UIPanel
 
 ```javascript
 import UIPanel from '@xaota/ui/panel.js';

@@ -21,7 +21,6 @@
   "author": "github.com/xaota",
   "license": "Unlicense",
   "devDependencies": {
-    "@xaota/ui": "latest",
     "eslint": "latest"
   }
 }

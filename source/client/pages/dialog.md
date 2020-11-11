@@ -1,7 +1,7 @@
 # Диалоговые и Модальные окна
 Отображение всплывающих окон
 
-> MaterialDialog
+> UIDialog
 
 ```javascript
 import UIDialog from '@xaota/ui/dialog.js';
@@ -36,10 +36,10 @@ const button = root.querySelector('ui-button');
 button.addEventListener('click', showDialog);
 
 async function showDialog() {
-  const dialog = new MaterialDialog("Заголовок")
-    .content(new MaterialText('какой-то текст'))
-    .action('Закрыть', MaterialDialog.resolve('готово'))
-    .action('Отмена',  MaterialDialog.reject('отмена'))
+  const dialog = new UIDialog("Заголовок")
+    .content(new UIText('какой-то текст'))
+    .action('Закрыть', UIDialog.resolve('готово'))
+    .action('Отмена',  UIDialog.reject('отмена'))
     .options({scroll: false});
   try {
     const resolve = await dialog.open();

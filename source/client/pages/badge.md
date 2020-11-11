@@ -1,7 +1,7 @@
 # Метка
 Счетчик уведомлений на элементе
 
-> MaterialBadge
+> UIBadge
 
 ```javascript
 import UIBadge from '@xaota/ui/badge.js';

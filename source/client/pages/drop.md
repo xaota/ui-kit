@@ -1,7 +1,7 @@
 # Выпадающие блоки
 Элемент, позволяющий мнгновенно выбрать значение из небольшого числа вариантов.
 
-> MaterialDrop
+> UIDrop
 
 ```javascript
 import UIDropRoot from '@xaota/ui/drop-root.js';

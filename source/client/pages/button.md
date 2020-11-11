@@ -35,9 +35,9 @@ import UIButton from `@xaota/ui/button.js`;
 
 ## Создание с помощью JavaScript
 ```javascript
-const buttonA = new MaterialButton();
-const buttonB = new MaterialButton('текст на кнопке');
-const buttonC = new MaterialButton({label: 'текст', mode: 'primary', text: 'outline'});
+const buttonA = new UIButton();
+const buttonB = new UIButton('текст на кнопке');
+const buttonC = new UIButton({label: 'текст', mode: 'primary', text: 'outline'});
 ```
 
 ### Кнопки с обводкой
@@ -107,7 +107,7 @@ const buttonC = new MaterialButton({label: 'текст', mode: 'primary', text: 
 import UIButtonIcon from '@xaota/ui/button-icon.js';
 ```
 
-> MaterialButtonIcon
+> UIButtonIcon
 
 <ui-html>
   <ui-button-icon>attach_file</ui-button-icon>
@@ -125,7 +125,7 @@ import UIButtonIcon from '@xaota/ui/button-icon.js';
 
 ## Кнопка возврата
 Используется для возврата на предыдущий экран
-> MaterialButtonBack
+> UIButtonBack
 
 ```javascript
 import UIButtonBack from '@xaota/ui/button-back.js';
@@ -246,7 +246,7 @@ ui-textarea {
 import UIButtonTooltip from '@xaota/ui/button-tooltip.js';
 ```
 
-> MaterialButtonTooltip
+> UIButtonTooltip
 
 <ui-html>
   <ui-button-tooltip content="подсказка">кнопка</ui-button-tooltip>
@@ -285,7 +285,7 @@ import UIButtonTooltip from '@xaota/ui/button-tooltip.js';
 
 Кнопка-иконка с подсказкой при наведении курсора мыши
 
-> MaterialButtonTooltipIcon
+> UIButtonTooltipIcon
 
 ```javascript
 import UIButtonTooltipIcon from '@xaota/ui/button-tooltip-icon.js';

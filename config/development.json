@@ -11,6 +11,7 @@
       "/@xaota/ui": "../ui",
       "/@xaota/web": "../web",
       "/javascript-algebra": "../javascript-algebra",
+      "/javascript-color": "../javascript-color",
       "/javascript-canvas": "../javascript-canvas",
       "/javascript-std-lib": "../javascript-std-lib",
       "/javascript-markdown": "../javascript-markdown"

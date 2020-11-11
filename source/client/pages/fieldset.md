@@ -1,7 +1,7 @@
 # Группа
 Группировка компонент, преимущественно контролов и полей ввода
 
-> MaterialFieldset
+> UIFieldset
 
 ```javascript
 import UIFieldset from '@xaota/ui/fieldset.js';

@@ -1,7 +1,7 @@
 # Поисковая строка
 Отображение поисковой строки
 
-> MaterialSearch
+> UISearch
 
 ```javascript
 import UISearch from '@xaota/ui/search.js';
@@ -20,7 +20,7 @@ import UISearch from '@xaota/ui/search.js';
 </ui-html>
 
 ## Поисковые посдсказки / результаты
-> MaterialSearchDrop
+> UISearchDrop
 
 ```javascript
 import UISearchDrop from '@xaota/ui/search-drop.js';

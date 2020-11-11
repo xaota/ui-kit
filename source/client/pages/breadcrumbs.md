@@ -1,7 +1,7 @@
 # Следы (Хлебные крошки)
 Путь по карте сайта.
 
-> MaterialBreadcrumbs
+> UIBreadcrumbs
 
 ```javascript
 import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';

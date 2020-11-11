@@ -1,7 +1,7 @@
 # Разделитель
 Визуальное разделение групп элементов в списках и других блоках
 
-> MaterialDivider
+> UIDivider
 
 ```javascript
 import UIDivider from '@xaota/ui/divider.js';
@@ -24,7 +24,7 @@ import UIListItem from '@xaota/ui/list-item.js';
   </ui-list>
 </ui-html>
 
-### Кастоимизация горизонтального разделителя
+### Кастомизация горизонтального разделителя
 <ui-html>
   <ui-list>
     <ui-list-item>Элемент 1</ui-list-item>
@@ -56,5 +56,5 @@ import UIListItem from '@xaota/ui/list-item.js';
 ## Создание с помощью JavaScript
 ### Горизонтальный разделитель
 ```javascript
-const divider = new MaterialDivider(options = {middle: false, inset: false});
+const divider = new UIDivider(options = {middle: false, inset: false});
 ```

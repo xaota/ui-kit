@@ -1,7 +1,7 @@
 # Кирпич
 Элемент, скрывающий за собой абстракцию по конкретной тематике
 
-> MaterialBrick
+> UIBrick
 
 ```javascript
 import UIBrick from '@xaota/ui/brick.js';

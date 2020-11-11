@@ -1,7 +1,7 @@
 # Floating Action Button
 Кнопка, предназначенная для целевого действия на экране приложения
 
-> MaterialFAB
+> UIFAB
 
 ## Плавающие Кнопки
 ```javascript

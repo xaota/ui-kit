@@ -10,6 +10,7 @@ const style = css`
   :host {
     display: block;
     font-family: var(--font);
+    padding: 0 1em;
   }
   slot {
     display: block;

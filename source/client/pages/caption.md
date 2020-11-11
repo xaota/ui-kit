@@ -1,7 +1,7 @@
 # Название
 Отображает название чего-либо
 
-> MaterialCaption
+> UICaption
 
 ```javascript
 import UICaption from '@xaota/ui/caption.js';

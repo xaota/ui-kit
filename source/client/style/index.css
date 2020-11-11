@@ -46,11 +46,6 @@ ui-panel {
 ui-panel ui-fieldset a {
   display: block;
   margin: 1em;
-  cursor: pointer;
-}
-
-ui-panel ui-fieldset a:hover {
-  color: green;
 }
 
 ui-panel ui-fieldset a.active {

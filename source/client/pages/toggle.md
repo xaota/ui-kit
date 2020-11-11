@@ -2,7 +2,7 @@
 Элементы, с помощью которых пользователь может выбрать среди предложенных значений.
 
 ## Выключатели
-> MaterialSwitch
+> UISwitch
 
 ```javascript
 import UISwitch from '@xaota/ui/switch.js';
@@ -16,7 +16,7 @@ import UISwitch from '@xaota/ui/switch.js';
 </ui-html>
 
 ## Флажки
-> MaterialCheckbox
+> UICheckbox
 
 ```javascript
 import UICheckbox from '@xaota/ui/checkbox.js';
@@ -32,7 +32,7 @@ import UICheckbox from '@xaota/ui/checkbox.js';
 </ui-html>
 
 ## Переключатели
-> MaterialRadio
+> UIRadio
 
 ```javascript
 import UIRadio from '@xaota/ui/radio.js';

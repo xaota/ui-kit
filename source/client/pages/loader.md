@@ -2,7 +2,7 @@
 Отображение процесса загрузки
 
 ## Индикатор
-> MaterialMeter
+> UIMeter
 
 ```javascript
 import UIMeter from '@xaota/ui/meter.js';
@@ -14,7 +14,7 @@ import UIMeter from '@xaota/ui/meter.js';
 </ui-html>
 
 ## Конечный процесс
-> MaterialProgress
+> UIProgress
 
 ```javascript
 import UIProgress from '@xaota/ui/progress.js';
@@ -25,7 +25,7 @@ import UIProgress from '@xaota/ui/progress.js';
 </ui-html>
 
 ## Бесконечный процесс
-> MaterialLoader
+> UILoader
 
 ```javascript
 import UILoader from '@xaota/ui/loader.js';

@@ -1,13 +1,13 @@
 # Аватар
 Отображение аватарки
 
-> MaterialAvatar
+> UIAvatar
 
 ```javascript
 import UIAvatar from '@xaota/ui/avatar.js';
 ```
 
-<view-source>
+<ui-html>
   <ui-avatar mode="primary">Метка</ui-avatar>
   <ui-avatar mode="secondary" icon="cloud_queue">Метка Широкая</ui-avatar>
   <ui-avatar mode="warning">Текстовая Метка</ui-avatar>
@@ -17,7 +17,7 @@ import UIAvatar from '@xaota/ui/avatar.js';
   <ui-avatar mode="primary" src="./content/avatar/avatar-2.jpg" size="64px"></ui-avatar>
   <ui-avatar mode="primary" src="./content/avatar/avatar-3.jpg" aria-label="avatar-test"></ui-avatar>
   <ui-avatar mode="primary" src="./content/avatar/avatar-4.jpg" style="--size:96px;"></ui-avatar>
-</view-source>
+</ui-html>
 
 ```css
 ui-avatar[aria-label="avatar-test"] {

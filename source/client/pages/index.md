@@ -1,4 +1,4 @@
-# Material UI Design
+# UI UI Design
 WebComponents Library
 
 ## Оформление
@@ -109,10 +109,10 @@ WebComponents Library
 ```
 
 ## Создание компонент для своих проектов
-> Все компоненты наследуются напрямую от класса `Component` (класс `Material` тоже)
+> Все компоненты наследуются напрямую от класса `Component` (класс `UI` тоже)
 
 ```javascript
-import Component from '/material/script/Component.js';
+import Component from '/UI/script/Component.js';
 // ...
 
 const component = Component.meta(import.meta.url, 'component-name'); // название тега

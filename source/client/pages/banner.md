@@ -1,7 +1,7 @@
 # Баннеры
 Отображает заметное сообщение и относящиеся к нему действия
 
-> MaterialBanner
+> UIBanner
 
 ```javascript
 import UIBanner from '@xaota/ui/banner.js';

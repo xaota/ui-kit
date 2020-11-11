@@ -1,7 +1,7 @@
 # Карточка
 Отображение информации и действий о конкретном объекте
 
-> MaterialCard
+> UICard
 
 ```javascript
 import UICard    from '@xaota/ui/card.js';

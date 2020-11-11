@@ -1,7 +1,7 @@
 # Страницы
 Для отображения информации.
 
-> MaterialPaper
+> UIPaper
 
 ```javascript
 import UIPaper from '@xaota/ui/paper.js';

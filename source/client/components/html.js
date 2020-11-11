@@ -10,6 +10,9 @@ const style = css`
   }
   pre {
     display: block;
+    overflow-x: auto;
+    padding: 1.2em .5em !important;
+    background: #f8f8f8 !important;
   }`;
 
 const attributes = {}

@@ -1,7 +1,7 @@
 # Подсказки
 Компонент для показа подсказок к элементу
 
-> MaterialTooltip
+> UITooltip
 
 ```javascript
 import UITooltip from '@xaota/ui/tooltip.js';

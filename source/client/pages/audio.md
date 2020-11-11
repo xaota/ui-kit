@@ -1,7 +1,7 @@
 # Аудио
 Элемент для воспроизведения аудиофайлов
 
-> MaterialAudio
+> UIAudio
 
 ```javascript
 import UIAudio from '@xaota/ui/audio.js';

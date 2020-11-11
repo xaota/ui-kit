@@ -1,7 +1,7 @@
 # Цитата
 Отображение многострочной цитаты
 
-> MaterialBlockquote
+> UIBlockquote
 
 ```javascript
 import UIBlockquote from '@xaota/ui/blockquote.js';

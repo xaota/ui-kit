@@ -6,7 +6,7 @@ import UIExpand from '@xaota/ui/expand.js';
 ```
 
 ## Разворачиваемая панель
-> MaterialExpand
+> UIExpand
 
 <ui-html>
   <ui-expand summary="Название разворачиваемой панели, содержимое внутри">

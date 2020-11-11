@@ -8,6 +8,21 @@ const style = css`
   }
   slot {
     display: block;
+  }
+  ::slotted(pre) {
+    padding: 1.2em 1em !important;
+  }
+  ::slotted(blockquote) {
+    position: relative;
+    margin-bottom: 2em;
+    border-left: 1.2em solid #f8f8f8;
+    padding-left: .5em;
+  }
+  ::slotted(blockquote):before {
+    position: absolute;
+    left: -0.9em;
+    content: '#';
+    font-weight: normal;
   }`;
 
 const attributes = {}

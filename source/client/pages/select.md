@@ -1,7 +1,7 @@
 # Поля выбора
 Элемент, позволяющий пользователю выбрать одно из предварительно заданных значений.
 
-> MaterialSelect
+> UISelect
 
 ```javascript
 import UISelect   from '@xaota/ui/select.js';

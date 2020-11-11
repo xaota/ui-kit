@@ -1,7 +1,7 @@
 # Иконка
 Отображение иконок
 
-> MaterialIcon
+> UIIcon
 
 ```javascript
 import UIIcon from '@xaota/ui/icon.js';
