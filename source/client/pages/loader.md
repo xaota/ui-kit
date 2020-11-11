@@ -9,7 +9,7 @@ import UIMeter from '@xaota/ui/meter.js';
 ```
 
 <ui-html>
-  <!-- <ui-meter min="0" max="100" value="45"></ui-meter> -->
+  <ui-meter min="0" max="100" value="45"></ui-meter>
   <ui-meter min="0" max="100" value="85"></ui-meter>
 </ui-html>
 
