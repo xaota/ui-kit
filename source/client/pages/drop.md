@@ -4,8 +4,7 @@
 > UIDrop
 
 ```javascript
-import UIDropRoot from '@xaota/ui/drop-root.js';
-import UIDrop     from '@xaota/ui/drop.js';
+import UIDrop from '@xaota/ui/drop.js';
 
 // также на этой странице использованы
 import UIButton   from '@xaota/ui/button.js';
@@ -14,7 +13,7 @@ import UIListItem from '@xaota/ui/list-item.js';
 ```
 
 <ui-html>
-  <ui-drop-root y="bottom">
+  <ui-drop y="bottom">
     <ui-button>кнопка</ui-button>
     <ui-list slot="drop">
       <ui-list-item>Элемент 1</ui-list-item>
@@ -23,11 +22,11 @@ import UIListItem from '@xaota/ui/list-item.js';
       <ui-list-item>Элемент 4</ui-list-item>
       <ui-list-item>Элемент 5</ui-list-item>
     </ui-list>
-  </ui-drop-root>
+  </ui-drop>
 </ui-html>
 
 <ui-html>
-  <ui-drop-root>
+  <ui-drop>
     <ui-button>кнопка</ui-button>
     <ui-list slot="drop">
       <ui-list-item>Элемент 1</ui-list-item>
@@ -36,5 +35,5 @@ import UIListItem from '@xaota/ui/list-item.js';
       <ui-list-item>Элемент 4</ui-list-item>
       <ui-list-item>Элемент 5</ui-list-item>
     </ui-list>
-  </ui-drop-root>
+  </ui-drop>
 </ui-html>

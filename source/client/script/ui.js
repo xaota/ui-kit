@@ -23,7 +23,6 @@ import UISnippet     from '@xaota/ui/snippet.js';
 import UITable       from '@xaota/ui/table.js';
 
 // выпадушки
-import UIDropRoot   from '@xaota/ui/drop-root.js';
 import UIDrop       from '@xaota/ui/drop.js';
 
 // поля ввода

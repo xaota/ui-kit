@@ -16,10 +16,10 @@ import UISliderItem from '@xaota/ui/slider-item.js';
       <img src="content/images/slide-1.jpeg" />
     </ui-slider-item>
     <ui-slider-item>
-      <img src="content/images/slide-2.jpeg">
+      <img src="content/images/slide-2.jpeg" />
     </ui-slider-item>
     <ui-slider-item>
-      <img src="content/images/slide-3.jpeg">
+      <img src="content/images/slide-3.jpeg" />
     </ui-slider-item>
   </ui-slider>
 </ui-html>
