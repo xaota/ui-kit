@@ -1,4 +1,4 @@
-# Предзагрузка образов контента
+# Предпоказ образов контента
 
 > UISkeleton, UIShimmer
 
@@ -11,6 +11,6 @@ import UIShimmer  from '@xaota/ui/shimmer.js';
 
 <ui-html>
   <ui-skeleton>
-    <ui-shimmer />
+    <ui-shimmer form="ellipse" />
   </ui-skeleton>
 </ui-html>

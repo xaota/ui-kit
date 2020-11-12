@@ -2,17 +2,44 @@
 Элементы, с помощью которых пользователь может выбрать среди предложенных значений.
 
 ## Выключатели
-> UISwitch
+> UIToggle, UISwitch
 
 ```javascript
+import UIToggle from '@xaota/ui/toggle.js';
 import UISwitch from '@xaota/ui/switch.js';
 ```
 
 <ui-html>
+  <ui-toggle></ui-toggle>
+  <ui-toggle checked></ui-toggle>
+</ui-html>
+
+<ui-html>
+  <ui-switch value="negative"></ui-switch>
   <ui-switch></ui-switch>
-  <ui-switch checked></ui-switch>
+  <ui-switch value="positive"></ui-switch>
+</ui-html>
+
+<ui-html>
+  <ui-switch
+    negative="disabled"
+    neutral="default"
+    positive="enabled"
+    right
+    style="--width: 100px"
+  >
+    название
+  </ui-switch>
+</ui-html>
+
+### Заблокированные выключатели
+
+<ui-html>
+  <ui-toggle disabled></ui-toggle>
+  <ui-toggle checked disabled></ui-toggle>
+  <ui-switch disabled value="negative"></ui-switch>
   <ui-switch disabled></ui-switch>
-  <ui-switch checked disabled></ui-switch>
+  <ui-switch disabled value="positive"></ui-switch>
 </ui-html>
 
 ## Флажки
@@ -54,6 +81,8 @@ import UIRadio from '@xaota/ui/radio.js';
   <ui-radio value="b"></ui-radio>
   <ui-radio value="c" disabled checked></ui-radio>
   <ui-radio value="d" disabled></ui-radio>
+  <ui-radio value="e" right>Описание слева</ui-radio>
+  <ui-radio value="e" checked>Описание справа</ui-radio>
 </ui-html>
 
 ### Группа переключателей
@@ -63,10 +92,26 @@ import UIRadio      from '@xaota/ui/radio.js';
 ```
 
 <ui-html>
-  <ui-radio-group name="group">
+  <ui-radio-group name="group-1">
     <ui-radio value="a"></ui-radio>
     <ui-radio value="b" checked></ui-radio>
     <ui-radio value="c"></ui-radio>
-    <ui-radio value="d"></ui-radio>
+    <ui-radio value="d" disabled></ui-radio>
+  </ui-radio-group>
+</ui-html>
+
+<ui-html>
+  <ui-radio-group name="group-2" vertical>
+    <ui-radio value="a"></ui-radio>
+    <ui-radio value="b"></ui-radio>
+    <ui-radio value="c" disabled></ui-radio>
+  </ui-radio-group>
+</ui-html>
+
+<ui-html>
+  <ui-radio-group name="group-3" vertical>
+    <ui-radio right value="a">вариант a</ui-radio>
+    <ui-radio right value="b" disabled>вариант b</ui-radio>
+    <ui-radio right value="c" checked>вариант c</ui-radio>
   </ui-radio-group>
 </ui-html>

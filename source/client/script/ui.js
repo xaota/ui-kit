@@ -50,6 +50,7 @@ import UIButtonUploadTooltipIcon from '@xaota/ui/button-upload-tooltip-icon.js';
 
 // переключатели
 import UISwitch      from '@xaota/ui/switch.js';
+import UIToggle      from '@xaota/ui/toggle.js';
 import UICheckbox    from '@xaota/ui/checkbox.js';
 import UIRadioGroup  from '@xaota/ui/radio-group.js';
 import UIRadio       from '@xaota/ui/radio.js';
