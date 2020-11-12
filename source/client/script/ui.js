@@ -2,9 +2,13 @@
 import UIText        from '@xaota/ui/text.js';
 import UIIcon        from '@xaota/ui/icon.js';
 import UICopyright   from '@xaota/ui/copyright.js';
-import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';
 import UIChip        from '@xaota/ui/chip.js';
 import UIBrick       from '@xaota/ui/brick.js';
+import UIBlur        from '@xaota/ui/blur.js';
+
+// навигация
+import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';
+import UIPagination  from '@xaota/ui/pagination.js';
 
 // блоки
 import UIPaper       from '@xaota/ui/paper.js';
@@ -15,6 +19,8 @@ import UICaption     from '@xaota/ui/caption.js';
 import UIBlockquote  from '@xaota/ui/blockquote.js';
 import UIBanner      from '@xaota/ui/banner.js';
 import UIFieldset    from '@xaota/ui/fieldset.js';
+import UISnippet     from '@xaota/ui/snippet.js';
+import UITable       from '@xaota/ui/table.js';
 
 // выпадушки
 import UIDropRoot   from '@xaota/ui/drop-root.js';
@@ -66,7 +72,6 @@ import UITabsItem    from '@xaota/ui/tabs-item.js';
 import UIBadge       from '@xaota/ui/badge.js';
 import UIRating      from '@xaota/ui/rating.js';
 
-
 // индикация загрузки
 import UIMeter       from '@xaota/ui/meter.js';
 import UIProgress    from '@xaota/ui/progress.js';
@@ -76,6 +81,8 @@ import UILoader      from '@xaota/ui/loader.js';
 import UITooltip     from '@xaota/ui/tooltip.js';
 import UIChipTooltip from '@xaota/ui/chip-tooltip.js';
 import UIDialog      from '@xaota/ui/dialog.js';
+import UISkeleton    from '@xaota/ui/skeleton.js';
+import UIShimmer     from '@xaota/ui/shimmer.js';
 
 // галерея
 import UISlider      from '@xaota/ui/slider.js';

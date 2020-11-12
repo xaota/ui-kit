@@ -25,10 +25,22 @@ import UICheckbox from '@xaota/ui/checkbox.js';
 <ui-html>
   <ui-checkbox></ui-checkbox>
   <ui-checkbox checked></ui-checkbox>
+</ui-html>
+
+### Флажки с текстом
+<ui-html>
   <ui-checkbox right>описание слева</ui-checkbox>
   <ui-checkbox>описание справа</ui-checkbox>
+</ui-html>
+
+### Заблокированные флажки
+<ui-html>
   <ui-checkbox disabled></ui-checkbox>
   <ui-checkbox disabled checked></ui-checkbox>
+  <ui-checkbox disabled right>описание слева</ui-checkbox>
+  <ui-checkbox disabled>описание справа</ui-checkbox>
+  <ui-checkbox disabled checked right>описание слева</ui-checkbox>
+  <ui-checkbox disabled checked>описание справа</ui-checkbox>
 </ui-html>
 
 ## Переключатели

@@ -8,7 +8,7 @@ page.href = window.location.hash.slice(1) || 'index';
 
 window.addEventListener('popstate', e => {
   const href = window.location.hash.slice(1);
-  console.log(href);
+  // console.log(href);
   page.href = href;
 });
 
