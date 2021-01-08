@@ -1,14 +1,14 @@
-# Таблица
-Отображение табличных данных
+# Таймлайн
+Отображение списка событий
 
-> `UITable`
+> `UITimeline`
 
 ```javascript
-import UITable from '@xaota/ui/table.js';
+import UITimeline from '@xaota/ui/timeline.js';
 ```
 
 <ui-html>
-  <ui-table></ui-table>
+  <ui-timeline></ui-timeline>
 </ui-html>
 
 ## Потомки
@@ -16,7 +16,7 @@ import UITable from '@xaota/ui/table.js';
 
 ## Атрибуты
 
-> `attribute` - `type?=default` - attribute-description
+> `horisontal` - `boolean?=false` - отображение событий на горизонтальной шкале
 
 ## События
 
@@ -35,14 +35,14 @@ import UITable from '@xaota/ui/table.js';
 ## Создание через JS
 
 ```javascript
-const table = new UITable();
-root.appendChild(table);
+const timeline = new UITimeline();
+root.appendChild(timeline);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-table.addEventListener('event', e => {
+timeline.addEventListener('event', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });

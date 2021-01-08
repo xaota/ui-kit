@@ -4,14 +4,18 @@ import UIIcon        from '@xaota/ui/icon.js';
 import UICopyright   from '@xaota/ui/copyright.js';
 import UIChip        from '@xaota/ui/chip.js';
 import UIBrick       from '@xaota/ui/brick.js';
+import UIProperties  from '@xaota/ui/properties.js';
+import UIProperty    from '@xaota/ui/property.js';
 import UIBlur        from '@xaota/ui/blur.js';
 
 // навигация
 import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';
 import UIPagination  from '@xaota/ui/pagination.js';
+import UIArrow       from '@xaota/ui/arrow.js';
 
 // блоки
 import UIPaper       from '@xaota/ui/paper.js';
+import UIPanel       from '@xaota/ui/panel.js';
 import UIExpand      from '@xaota/ui/expand.js';
 import UIFigure      from '@xaota/ui/figure.js';
 import UICard        from '@xaota/ui/card.js';
@@ -21,6 +25,7 @@ import UIBanner      from '@xaota/ui/banner.js';
 import UIFieldset    from '@xaota/ui/fieldset.js';
 import UISnippet     from '@xaota/ui/snippet.js';
 import UITable       from '@xaota/ui/table.js';
+import UISticky      from '@xaota/ui/sticky.js';
 
 // выпадушки
 import UIDrop       from '@xaota/ui/drop.js';
@@ -83,6 +88,9 @@ import UIChipTooltip from '@xaota/ui/chip-tooltip.js';
 import UIDialog      from '@xaota/ui/dialog.js';
 import UISkeleton    from '@xaota/ui/skeleton.js';
 import UIShimmer     from '@xaota/ui/shimmer.js';
+import UILayer       from '@xaota/ui/layer.js';
+import UIOverlay     from '@xaota/ui/overlay.js';
+import UICalendar    from '@xaota/ui/calendar.js';
 
 // галерея
 import UISlider      from '@xaota/ui/slider.js';
@@ -97,3 +105,4 @@ import UIKeyboard    from '@xaota/ui/keyboard.js'; // клавиатура
 
 // другое
 import UIAvatar      from '@xaota/ui/avatar.js';
+import UIPipeline    from '@xaota/ui/pipeline.js';

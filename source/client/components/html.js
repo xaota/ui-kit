@@ -13,6 +13,23 @@ const style = css`
     overflow-x: auto;
     padding: 1.2em .5em !important;
     background: #f8f8f8 !important;
+  }
+  @media screen and (prefers-color-scheme: dark) {
+    .hljs {
+      position: relative;
+    }
+
+    .hljs:after {
+      position:absolute;
+      content: '';
+      display: block;
+      top:0;
+      bottom:0;
+      left: 0;
+      right: 0;
+      background: #ddd;
+      mix-blend-mode: difference;
+    }
   }`;
 
 const attributes = {}

@@ -115,3 +115,24 @@ import UIRadio      from '@xaota/ui/radio.js';
     <ui-radio right value="c" checked>вариант c</ui-radio>
   </ui-radio-group>
 </ui-html>
+
+### Группа переключателей с кнопками
+```javascript
+import UIRadioGroup from '@xaota/ui/radio-group.js';
+import UIButton     from '@xaota/ui/button.js';
+```
+<ui-html>
+  <ui-radio-group name="group-4">
+    <ui-button value="a">вариант a</ui-button>
+    <ui-button value="b" disabled>вариант b</ui-button>
+    <ui-button value="c" checked>вариант c</ui-button>
+  </ui-radio-group>
+</ui-html>
+
+<ui-html>
+  <ui-radio-group name="group-5" vertical>
+    <ui-button value="a">вариант a</ui-button>
+    <ui-button value="b" disabled>вариант b</ui-button>
+    <ui-button value="c" checked>вариант c</ui-button>
+  </ui-radio-group>
+</ui-html>

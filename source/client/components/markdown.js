@@ -23,6 +23,23 @@ const style = css`
     left: -0.9em;
     content: '#';
     font-weight: normal;
+  }
+  @media screen and (prefers-color-scheme: dark) {
+    ::slotted(.hljs) {
+      position: relative;
+    }
+
+    ::slotted(.hljs):after {
+      position:absolute;
+      content: '';
+      display: block;
+      top:0;
+      bottom:0;
+      left: 0;
+      right: 0;
+      background: #ddd;
+      mix-blend-mode: difference;
+    }
   }`;
 
 const attributes = {}

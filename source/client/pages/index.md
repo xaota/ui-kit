@@ -1,5 +1,9 @@
-# UI UI Design
+# @xaota/ui
 WebComponents Library
+
+```shell
+$ npm install @xaota/ui
+```
 
 ## Оформление
 Для оформления компонент используются CSS-переменные

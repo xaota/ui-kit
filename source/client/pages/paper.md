@@ -6,7 +6,6 @@
 ```javascript
 import UIPaper from '@xaota/ui/paper.js';
 ```
-
 ## Простая страница
 
 <ui-hrml>

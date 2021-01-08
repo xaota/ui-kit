@@ -4,11 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@xaota/ui</title>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
+
   <script src="./importmap.js"></script>
   <link rel="stylesheet" href="./style/index.css" />
   <script src="./script/index.js" type="module"></script>
-
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js"></script>
 </head>
   <body>
     <ui-panel>
@@ -32,7 +33,7 @@
         properties / attributes
         styles
       -->
-
+      <a slot="top" href="." style="margin-bottom: 1em">@xaota/ui</a>
       <ui-fieldset slot="top" caption="Типография" fold>
         <a href="#caption">Название</a>
         <a href="#text">Текстовый блок</a>
@@ -45,6 +46,7 @@
         <a href="#tooltip">Подсказки</a>
         <a href="#message">Сообщения</a>
         <a href="#paragraph">Параграфы</a>
+        <a href="#property">Свойства и значения</a>
         <a href="#blur">Размытие</a>
       </ui-fieldset>
       <ui-fieldset slot="top" caption="Элементы управления" fold>
@@ -65,22 +67,32 @@
         <a href="#card">Карточки</a>
         <a href="#paper">Страницы</a>
         <a href="#list">Списки</a>
+        <!-- virtual-list -->
         <a href="#divider">Разделители</a>
         <a href="#banner">Баннеры</a>
-        <a href="#title">Колонтитулы</a>
-        <a href="#header">Заголовок</a>
         <a href="#panel">Панель</a>
-        <a href="#footer">Подвал</a>
         <a href="#sheet">Список элементов</a>
-        <a href="#grid">Сетка</a>
         <a href="#snippet">Сниппеты</a>
         <a href="#table">Таблицы</a>
+        <a href="#rows-cols">Строки и Столбцы</a>
+        <a href="#showcase">Витрина</a>
+      </ui-fieldset>
+      <ui-fieldset slot="top" caption="Раскладка">
+        <a href="#header">Заголовок</a>
+        <a href="#title">Колонтитулы</a>
+        <a href="#masonry">Поток (masonry)</a>
+        <a href="#footer">Подвал</a>
+        <a href="#grid">Сетка</a>
+        <a href="#sticky">Липучка</a>
       </ui-fieldset>
       <ui-fieldset slot="top" caption="Навигация" fold>
         <a href="#navigation">Панель навигации</a>
         <a href="#brick">Кирпич</a>
         <a href="#breadcrumbs">Следы</a>
         <a href="#pagination">Пагинация</a>
+        <a href="#stripe">Лента (stripe)</a>
+        <a href="#arrow">Стрелка</a>
+        <!-- infinite scroll -->
       </ui-fieldset>
       <ui-fieldset slot="top" caption="Динамические элементы" fold>
         <a href="#tabs">Вкладки</a>
@@ -91,6 +103,9 @@
         <a href="#loader">Состояние, Прогресс и Загрузка</a>
         <a href="#skeleton">Skeleton и Shimmer</a>
         <a href="#snackbar">Уведомления</a>
+        <a href="#layer">Слой</a>
+        <a href="#overlay">Оверлей</a>
+        <a href="#popover">Всплывающий блок</a>
       </ui-fieldset>
       <ui-fieldset slot="top" caption="Медиа элементы" fold>
         <a href="#slider">Галерея</a>
@@ -102,7 +117,9 @@
         <a href="#payment">Платежи</a>
         <!-- <a href="#stack">Стопка</a> -->
         <!-- <a href="#camera">Камера</a> -->
-        <a href="#timeline">Хроника</a>
+        <a href="#chronics">Хроника</a>
+        <a href="#timeline">Таймлайн</a>
+        <a href="#pipeline">Пайплайн</a>
       </ui-fieldset>
       <ui-fieldset slot="top" caption="Диаграммы и графики" fold>
         <a href="#diagram-linear">Линейная</a>
@@ -116,8 +133,11 @@
 
       <hr slot="top" />
       <ui-fieldset slot="top" caption="Музыкальные" fold>
-        <a href="#x-guitar-accord">Гитарный аккорд</a>
         <a href="#x-piano-keyboard">Клавиатура пианино</a>
+        <a href="#x-guitar-accord">Аккорд (гитара)</a>
+        <a href="#x-piano-accord">Aккорд (пианино)</a>
+        <a href="#x-ukulele-accord">Aккорд (укулеле)</a>
+        <!-- ноты -->
       </ui-fieldset>
     </ui-panel>
     <ui-page></ui-page>

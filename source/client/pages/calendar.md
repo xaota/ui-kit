@@ -1,14 +1,14 @@
-# Таблица
-Отображение табличных данных
+# Календарь
+Отображение календаря
 
-> `UITable`
+> `UICalendar`
 
 ```javascript
-import UITable from '@xaota/ui/table.js';
+import UICalendar from '@xaota/ui/calendar.js';
 ```
 
 <ui-html>
-  <ui-table></ui-table>
+  <ui-calendar></ui-calendar>
 </ui-html>
 
 ## Потомки
@@ -35,14 +35,14 @@ import UITable from '@xaota/ui/table.js';
 ## Создание через JS
 
 ```javascript
-const table = new UITable();
-root.appendChild(table);
+const calendar = new UICalendar();
+root.appendChild(calendar);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-table.addEventListener('event', e => {
+calendar.addEventListener('event', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });

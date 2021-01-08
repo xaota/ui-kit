@@ -1,14 +1,16 @@
-# Таблица
-Отображение табличных данных
+# Пайплайн
+Отображение списка действий в каком-либо процессе
 
-> `UITable`
+> `UIPipeline`
 
 ```javascript
-import UITable from '@xaota/ui/table.js';
+import UIPipeline from '@xaota/ui/pipeline.js';
 ```
 
 <ui-html>
-  <ui-table></ui-table>
+  <ui-pipeline>
+
+  </ui-pipeline>
 </ui-html>
 
 ## Потомки
@@ -16,7 +18,7 @@ import UITable from '@xaota/ui/table.js';
 
 ## Атрибуты
 
-> `attribute` - `type?=default` - attribute-description
+> `vertical` - `boolean?=false` - отобразить процесс вертикально
 
 ## События
 
@@ -35,14 +37,14 @@ import UITable from '@xaota/ui/table.js';
 ## Создание через JS
 
 ```javascript
-const table = new UITable();
-root.appendChild(table);
+const pipeline = new UIPipeline();
+root.appendChild(pipeline);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-table.addEventListener('event', e => {
+pipeline.addEventListener('event', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });

@@ -5,13 +5,36 @@
   --background-light: #fff;
   --background: #eee;
   --background-dark: #ddd;
+  --background-panel: rgb(255, 255, 255);
 
   --foreground-light: #222;
   --foreground: #111;
   --foreground-dark: #000;
 
+  --color-edge: #f5f5f8;
+  --color-edge-accent: rgb(221, 97, 39);
+  --icon-static: black;
+
   --aside: 280px;
   --padding: var(--indent) calc(var(--indent) / 2);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --background-light: #444;
+    --background: #0E1621;
+    --background-dark: #333;
+    --background-panel: rgb(25, 28, 33);
+
+    --foreground-light: #222;
+    --foreground: #fff;
+    --foreground-dark: #000;
+
+    --color-edge: rgb(40, 45, 47);
+    /* --color-edge-accent: #f5f5f8; */
+    --icon-static: #fff;
+    --icon-hover: var(--color-edge-accent);
+  }
 }
 
 body {
