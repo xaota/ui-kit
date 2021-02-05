@@ -1,46 +1,48 @@
-# Страницы
-Блок для отображения связанного контента (по одной тематике:, например)
+# Шапка страницы и заголовок
+Компонент для создания шапки страницы и заголовка
 
-> `UIPaper`
+> `UIHeader`
 
 ```javascript
-import UIPaper from '@xaota/ui/paper.js';
+import UIHeader from '@xaota/ui/header.js';
 ```
 
 <ui-html>
-  <ui-paper>
-    Простая страница с любым контентом
-  </ui-paper>
+  <ui-header></ui-header>
 </ui-html>
 
 ## Потомки
-Потомками могут быть любые элементы
+
 
 ## Атрибуты
 
+> `attribute` - `type?=default` - attribute-description
+
 ## События
+
+> __`event`__ - event-description
 
 ### Параметры:
 
+> `detail` - `detail-type` - значения: `detail-enum` - detail-description
 
 ## Стилизация
 
 ### Встроенное оформление
 
 ### CSS-переменные
-Цвет фона `--background-panel`
 
 ## Создание через JS
 
 ```javascript
-const paper = new UIPaper();
-root.appendChild(paper);
+const header = new UIHeader();
+root.appendChild(header);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-paper.addEventListener('event', e => {
+header.addEventListener('event', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });

@@ -1,14 +1,14 @@
-# Слой
-Слой контента
+# Панорама
+Компонент, который позволяет просматривать 360 градусные изображения
 
-> `UILayer`
+> `UIPanorama`
 
 ```javascript
-import UILayer from '@xaota/ui/layer.js';
+import UIPanorama from '@xaota/ui/panorama.js';
 ```
 
 <ui-html>
-  <ui-layer></ui-layer>
+  <ui-panorama></ui-panorama>
 </ui-html>
 
 ## Потомки
@@ -35,14 +35,14 @@ import UILayer from '@xaota/ui/layer.js';
 ## Создание через JS
 
 ```javascript
-const layer = new UILayer();
-root.appendChild(layer);
+const panorama = new UIPanorama();
+root.appendChild(panorama);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-layer.addEventListener('event', e => {
+panorama.addEventListener('event', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });

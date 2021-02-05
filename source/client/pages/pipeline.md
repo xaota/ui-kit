@@ -5,16 +5,28 @@
 
 ```javascript
 import UIPipeline from '@xaota/ui/pipeline.js';
+import UIBrick    from '@xaota/ui/brick.js';
 ```
 
 <ui-html>
-  <ui-pipeline>
-
+  <ui-pipeline stage="6">
+    <ui-brick stage="1">scene 1.1</ui-brick>
+    <ui-brick stage="2">scene 2.1</ui-brick>
+    <ui-brick stage="2">scene 2.2</ui-brick>
+    <ui-brick stage="3">scene 3.1</ui-brick>
+    <ui-brick stage="3">scene 3.2</ui-brick>
+    <ui-brick stage="3">scene 3.3</ui-brick>
+    <ui-brick stage="4">scene 4.1</ui-brick>
+    <ui-brick stage="5">scene 5.1</ui-brick>
+    <ui-brick stage="6">scene 6.1</ui-brick>
+    <ui-brick stage="6">scene 6.2</ui-brick>
+    <ui-brick stage="6">scene 6.3</ui-brick>
   </ui-pipeline>
 </ui-html>
 
 ## Потомки
-
+> `<ui-brick>` - блоки
+у потомков должны быть установлен атрибут `stage`
 
 ## Атрибуты
 
@@ -22,7 +34,7 @@ import UIPipeline from '@xaota/ui/pipeline.js';
 
 ## События
 
-> __`event`__ - event-description
+> __`change`__ - event-description
 
 ### Параметры:
 
@@ -44,7 +56,7 @@ root.appendChild(pipeline);
 ## Обработка событий через JS
 
 ```javascript
-pipeline.addEventListener('event', e => {
+pipeline.addEventListener('change', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });

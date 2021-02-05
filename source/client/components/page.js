@@ -1,4 +1,5 @@
-import Component, {html, css} from '@xaota/ui';
+import Component, {html, css, $$} from '@xaota/ui';
+import UICopyIcon from '@xaota/ui/copy-icon.js';
 
 import UIMarkdown from './markdown.js';
 import UIHTML     from './html.js';
@@ -14,6 +15,12 @@ const style = css`
   }
   slot {
     display: block;
+  }
+  ui-copy-icon {
+    position: relative;
+    bottom: 3.5em;
+    right: 1.5em;
+    float: right;
   }`;
 
 const attributes = {
@@ -61,6 +68,15 @@ Component.init(UIPage, 'ui-page', {attributes, properties});
     markdown.store({markdown: text});
 
     if (!window.hljs || !window.hljs.highlightBlock) return;
-    [...markdown.querySelectorAll('pre')].forEach(view => setTimeout(() => window.hljs.highlightBlock(view), 0));
+    $$('pre', markdown).forEach(view => {
+      const text = view.innerText;
+      console.log(text);
+      setTimeout(() => {
+        window.hljs.highlightBlock(view);
+        const copy = new UICopyIcon();
+        copy.innerText = text;
+        markdown.insertBefore(copy, view.nextSibling);
+      }, 0);
+    });
   }
 // #endregion

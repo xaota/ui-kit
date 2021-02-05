@@ -1,46 +1,48 @@
-# Страницы
-Блок для отображения связанного контента (по одной тематике:, например)
+# Подвал страницы
+Подвал страницы
 
-> `UIPaper`
+> `UIFooter`
 
 ```javascript
-import UIPaper from '@xaota/ui/paper.js';
+import UIFooter from '@xaota/ui/footer.js';
 ```
 
 <ui-html>
-  <ui-paper>
-    Простая страница с любым контентом
-  </ui-paper>
+  <ui-footer></ui-footer>
 </ui-html>
 
 ## Потомки
-Потомками могут быть любые элементы
+
 
 ## Атрибуты
 
+> `attribute` - `type?=default` - attribute-description
+
 ## События
+
+> __`event`__ - event-description
 
 ### Параметры:
 
+> `detail` - `detail-type` - значения: `detail-enum` - detail-description
 
 ## Стилизация
 
 ### Встроенное оформление
 
 ### CSS-переменные
-Цвет фона `--background-panel`
 
 ## Создание через JS
 
 ```javascript
-const paper = new UIPaper();
-root.appendChild(paper);
+const footer = new UIFooter();
+root.appendChild(footer);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-paper.addEventListener('event', e => {
+footer.addEventListener('event', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });

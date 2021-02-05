@@ -1,46 +1,48 @@
-# Страницы
-Блок для отображения связанного контента (по одной тематике:, например)
+# Раскладка (Grid)
+Располагает блоки в сетке
 
-> `UIPaper`
+> `UIGrid`
 
 ```javascript
-import UIPaper from '@xaota/ui/paper.js';
+import UIGrid from '@xaota/ui/grid.js';
 ```
 
 <ui-html>
-  <ui-paper>
-    Простая страница с любым контентом
-  </ui-paper>
+  <ui-grid></ui-grid>
 </ui-html>
 
 ## Потомки
-Потомками могут быть любые элементы
+
 
 ## Атрибуты
 
+> `attribute` - `type?=default` - attribute-description
+
 ## События
+
+> __`event`__ - event-description
 
 ### Параметры:
 
+> `detail` - `detail-type` - значения: `detail-enum` - detail-description
 
 ## Стилизация
 
 ### Встроенное оформление
 
 ### CSS-переменные
-Цвет фона `--background-panel`
 
 ## Создание через JS
 
 ```javascript
-const paper = new UIPaper();
-root.appendChild(paper);
+const grid = new UIGrid();
+root.appendChild(grid);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-paper.addEventListener('event', e => {
+grid.addEventListener('event', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });

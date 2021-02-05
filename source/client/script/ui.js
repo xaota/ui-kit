@@ -7,6 +7,7 @@ import UIBrick       from '@xaota/ui/brick.js';
 import UIProperties  from '@xaota/ui/properties.js';
 import UIProperty    from '@xaota/ui/property.js';
 import UIBlur        from '@xaota/ui/blur.js';
+import UITimestamp   from '@xaota/ui/timestamp.js';
 
 // навигация
 import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';
@@ -59,6 +60,7 @@ import UIToggle      from '@xaota/ui/toggle.js';
 import UICheckbox    from '@xaota/ui/checkbox.js';
 import UIRadioGroup  from '@xaota/ui/radio-group.js';
 import UIRadio       from '@xaota/ui/radio.js';
+// Tumbler
 
 // поиск
 import UISearch      from '@xaota/ui/search.js';
@@ -88,9 +90,12 @@ import UIChipTooltip from '@xaota/ui/chip-tooltip.js';
 import UIDialog      from '@xaota/ui/dialog.js';
 import UISkeleton    from '@xaota/ui/skeleton.js';
 import UIShimmer     from '@xaota/ui/shimmer.js';
-import UILayer       from '@xaota/ui/layer.js';
 import UIOverlay     from '@xaota/ui/overlay.js';
 import UICalendar    from '@xaota/ui/calendar.js';
+import UISnackbar    from '@xaota/ui/snackbar.js';
+import UINotify      from '@xaota/ui/notify.js';
+import UICopy        from '@xaota/ui/copy.js';
+import UICopyIcon    from '@xaota/ui/copy-icon.js';
 
 // галерея
 import UISlider      from '@xaota/ui/slider.js';
@@ -103,6 +108,18 @@ import UIAudio       from '@xaota/ui/audio.js';
 import UIMessage     from '@xaota/ui/message.js';
 import UIKeyboard    from '@xaota/ui/keyboard.js'; // клавиатура
 
+// раскладка
+import UIHeader from '@xaota/ui/header.js';
+import UIFooter from '@xaota/ui/footer.js';
+
+// временная шкала
+import UIPipeline from '@xaota/ui/pipeline.js';
+import UIPlotline from '@xaota/ui/plotline.js';
+import UIChronics from '@xaota/ui/chronics.js';
+import UITimeline from '@xaota/ui/timeline.js';
+
 // другое
 import UIAvatar      from '@xaota/ui/avatar.js';
-import UIPipeline    from '@xaota/ui/pipeline.js';
+import UIPanorama    from '@xaota/ui/panorama.js';
+import UIGrid        from '@xaota/ui/grid.js';
+import UILayer       from '@xaota/ui/layer.js';

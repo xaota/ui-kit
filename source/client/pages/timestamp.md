@@ -1,14 +1,14 @@
-# Слой
-Слой контента
+# Дата и время
+Компонент показывающий дату и время с форматированием
 
-> `UILayer`
+> `UITimestamp`
 
 ```javascript
-import UILayer from '@xaota/ui/layer.js';
+import UITimestamp from '@xaota/ui/timestamp.js';
 ```
 
 <ui-html>
-  <ui-layer></ui-layer>
+  <ui-timestamp></ui-timestamp>
 </ui-html>
 
 ## Потомки
@@ -35,14 +35,14 @@ import UILayer from '@xaota/ui/layer.js';
 ## Создание через JS
 
 ```javascript
-const layer = new UILayer();
-root.appendChild(layer);
+const timestamp = new UITimestamp();
+root.appendChild(timestamp);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-layer.addEventListener('event', e => {
+timestamp.addEventListener('event', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });

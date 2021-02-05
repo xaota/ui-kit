@@ -1,9 +1,11 @@
-import Component, {html, css} from '@xaota/ui';
+import Component, {html, css, $} from '@xaota/ui';
+import UICopyIcon from '@xaota/ui/copy-icon.js';
 
 const style = css`
   :host {
     display: block;
     font-family: var(--font);
+    position: relative;
   }
   slot {
     display: block;
@@ -13,6 +15,11 @@ const style = css`
     overflow-x: auto;
     padding: 1.2em .5em !important;
     background: #f8f8f8 !important;
+  }
+  ui-copy-icon {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
   }
   @media screen and (prefers-color-scheme: dark) {
     .hljs {
@@ -45,6 +52,7 @@ const properties = {}
         <style>${style}</style>
         <slot></slot>
         <pre lang="html"></pre>
+        <ui-copy-icon></ui-copy-icon>
       </template>`;
 
   /** Создание компонента {UIHTML} @constructor
@@ -62,11 +70,13 @@ const properties = {}
     mount(node) {
       super.mount(node, attributes, properties);
 
-      const slot = node.querySelector('slot');
+      const slot = $('slot', node);
       slot.addEventListener('slotchange', () => {
         const text = this.innerHTML.replace(/^.*\n?/, '');
-        const output = node.querySelector('pre');
+        const output = $('pre', node);
         output.innerText = text;
+        const copy = $('ui-copy-icon', node);
+        copy.innerText = text;
         // @ts-ignore
         if (window.hljs && window.hljs.highlightBlock) setTimeout(() => window.hljs.highlightBlock(output), 0);
       });

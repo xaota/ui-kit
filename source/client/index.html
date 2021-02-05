@@ -33,7 +33,10 @@
         properties / attributes
         styles
       -->
-      <a slot="top" href="." style="margin-bottom: 1em">@xaota/ui</a>
+      <ui-caption center slot="top" style="margin: 0.5em 0 1.2em">
+        <a href="." style="color: white; text-decoration: none">@xaota/ui</a>
+      </ui-caption>
+
       <ui-fieldset slot="top" caption="Типография" fold>
         <a href="#caption">Название</a>
         <a href="#text">Текстовый блок</a>
@@ -57,10 +60,14 @@
         <a href="#select">Поля выбора</a>
         <a href="#toggle">Переключатели</a>
         <a href="#fieldset">Группа</a>
-        <a href="#calendar">Календарь</a>
-        <a href="#timepicker">Выбор времени</a>
         <a href="#rating">Рейтинг</a>
         <a href="#editor">Редактор текста</a>
+        <a href="#copy">Копирование текста</a>
+      </ui-fieldset>
+      <ui-fieldset slot="top" caption="Работа с датой и временем" fold>
+        <a href="#timestamp">Дата и время</a>
+        <a href="#calendar">Календарь</a>
+        <a href="#timepicker">Выбор времени</a>
       </ui-fieldset>
       <ui-fieldset slot="top" caption="Блоки" fold>
         <a href="#figure">Рамка</a>
@@ -100,7 +107,6 @@
         <a href="#drawer">Выдвижная панель</a>
         <a href="#expand">Развороты</a>
         <a href="#drop">Выпадающие блоки</a>
-        <a href="#loader">Состояние, Прогресс и Загрузка</a>
         <a href="#skeleton">Skeleton и Shimmer</a>
         <a href="#snackbar">Уведомления</a>
         <a href="#layer">Слой</a>
@@ -111,16 +117,25 @@
         <a href="#slider">Галерея</a>
         <a href="#audio">Аудио</a>
       </ui-fieldset>
+
+      <ui-fieldset slot="top" caption="Процессы" fold>
+        <a href="#loader">Состояние, Прогресс и Загрузка</a>
+        <a href="#chronics">Хроника</a>
+        <a href="#timeline">Таймлайн</a>
+        <a href="#pipeline">Пайплайн</a>
+        <a href="#plotline">Сюжет</a>
+      </ui-fieldset>
+
       <ui-fieldset slot="top" caption="Другие элементы" fold>
         <a href="#parallax">Паралакс</a>
         <a href="#panorama">Панорама</a>
         <a href="#payment">Платежи</a>
         <!-- <a href="#stack">Стопка</a> -->
         <!-- <a href="#camera">Камера</a> -->
-        <a href="#chronics">Хроника</a>
-        <a href="#timeline">Таймлайн</a>
-        <a href="#pipeline">Пайплайн</a>
       </ui-fieldset>
+
+      <hr slot="top" />
+
       <ui-fieldset slot="top" caption="Диаграммы и графики" fold>
         <a href="#diagram-linear">Линейная</a>
         <a href="#diagram-pie">Круговая</a>
@@ -132,6 +147,7 @@
       </ui-fieldset>
 
       <hr slot="top" />
+
       <ui-fieldset slot="top" caption="Музыкальные" fold>
         <a href="#x-piano-keyboard">Клавиатура пианино</a>
         <a href="#x-guitar-accord">Аккорд (гитара)</a>

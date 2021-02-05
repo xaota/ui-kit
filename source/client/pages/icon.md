@@ -58,6 +58,7 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>text_fields</ui-icon>
   <ui-icon>vertical-align-top</ui-icon>
   <ui-icon>vertical-align-bottom</ui-icon>
+  <ui-icon>backspace</ui-icon>
 </ui-html>
 
 ## Messages
@@ -83,8 +84,50 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>build</ui-icon>
 </ui-html>
 
+## Append / Remove
+<ui-html>
+  <ui-icon>check</ui-icon>
+  <ui-icon>clear</ui-icon>
+  <ui-icon>add</ui-icon>
+  <ui-icon>remove</ui-icon>
+  <ui-icon>remove_circle_outline</ui-icon>
+  <ui-icon>add_shopping_cart</ui-icon>
+  <ui-icon>delete-outline</ui-icon>
+  <ui-icon>delete</ui-icon>
+  <ui-icon>delete-forever</ui-icon>
+  <ui-icon>delete-sweep</ui-icon>
+</ui-html>
+
+## Copy &amp; Paste
+<ui-html>
+  <ui-icon>copy</ui-icon>
+  <ui-icon>copy-all</ui-icon>
+  <ui-icon>copy-file</ui-icon>
+  <ui-icon>cut</ui-icon>
+  <ui-icon>paste</ui-icon>
+  <ui-icon>select_all</ui-icon>
+</ui-html>
+
+## Actions
+<ui-html>
+  <ui-icon>create</ui-icon>
+  <ui-icon>share</ui-icon>
+  <ui-icon>repeat</ui-icon>
+  <ui-icon>shuffle</ui-icon>
+  <ui-icon>sort</ui-icon>
+  <ui-icon>filter_list</ui-icon>
+  <ui-icon>sort_by_alpha</ui-icon>
+  <ui-icon>spellcheck</ui-icon>
+  <ui-icon>control_point</ui-icon>
+  <ui-icon>save</ui-icon>
+  <ui-icon>note_add</ui-icon>
+  <ui-icon>present-to-all</ui-icon>
+  <ui-icon>swap</ui-icon>
+</ui-html>
+
 ## Interface
 <ui-html>
+  <ui-icon>anchor</ui-icon>
   <ui-icon>attach_file</ui-icon>
   <ui-icon>check_box</ui-icon>
   <ui-icon>check_box_outline_blank</ui-icon>
@@ -104,46 +147,17 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>high_quality</ui-icon>
   <ui-icon>present_to_all</ui-icon>
   <ui-icon>minimize</ui-icon>
-</ui-html>
-
-## Append / Remove
-<ui-html>
-  <ui-icon>check</ui-icon>
-  <ui-icon>clear</ui-icon>
-  <ui-icon>add</ui-icon>
-  <ui-icon>remove</ui-icon>
-  <ui-icon>remove_circle_outline</ui-icon>
-  <ui-icon>add_shopping_cart</ui-icon>
-  <ui-icon>delete-outline</ui-icon>
-  <ui-icon>delete</ui-icon>
-  <ui-icon>delete-forever</ui-icon>
-  <ui-icon>delete-sweep</ui-icon>
-</ui-html>
-
-## Actions
-<ui-html>
-  <ui-icon>create</ui-icon>
-  <ui-icon>select_all</ui-icon>
-  <ui-icon>share</ui-icon>
-  <ui-icon>repeat</ui-icon>
-  <ui-icon>shuffle</ui-icon>
-  <ui-icon>sort</ui-icon>
-  <ui-icon>filter_list</ui-icon>
-  <ui-icon>sort_by_alpha</ui-icon>
-  <ui-icon>spellcheck</ui-icon>
-  <ui-icon>control_point</ui-icon>
-  <ui-icon>save</ui-icon>
-  <ui-icon>note_add</ui-icon>
-  <ui-icon>present-to-all</ui-icon>
-  <ui-icon>swap</ui-icon>
+  <ui-icon>layout</ui-icon>
+  <ui-icon>preview</ui-icon>
+  <ui-icon>dashboard</ui-icon>
+  <ui-icon>border-vertical</ui-icon>
+  <ui-icon>border-horizontal</ui-icon>
 </ui-html>
 
 ## States
 <ui-html>
   <ui-icon>visibility</ui-icon>
   <ui-icon>visibility_off</ui-icon>
-  <ui-icon>keyboard_voice</ui-icon>
-  <ui-icon>mic_off</ui-icon>
   <ui-icon>security</ui-icon>
   <ui-icon>verified_user</ui-icon>
   <ui-icon>trending_down</ui-icon>
@@ -153,12 +167,24 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>redo</ui-icon>
   <ui-icon>playlist_add</ui-icon>
   <ui-icon>playlist_add_check</ui-icon>
-  <ui-icon>airplanemode_active</ui-icon>
-  <ui-icon>airplanemode_inactive</ui-icon>
+</ui-html>
+
+## Devices
+<ui-html>
+  <ui-icon>apple-logo</ui-icon>
+  <ui-icon>android-logo</ui-icon>
+  <ui-icon>keyboard_voice</ui-icon>
+  <ui-icon>mic_off</ui-icon>
   <ui-icon>videocam</ui-icon>
   <ui-icon>videocam_off</ui-icon>
-  <ui-icon>location_on</ui-icon>
-  <ui-icon>location_off</ui-icon>
+  <ui-icon>lock</ui-icon>
+  <ui-icon>lock-open</ui-icon>
+</ui-html>
+
+## Режимы
+<ui-html>
+  <ui-icon>airplanemode_active</ui-icon>
+  <ui-icon>airplanemode_inactive</ui-icon>
   <ui-icon>flash-auto</ui-icon>
   <ui-icon>flash-off</ui-icon>
   <ui-icon>flash-on</ui-icon>
@@ -190,6 +216,11 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>restore</ui-icon>
   <ui-icon>timelapse</ui-icon>
   <ui-icon>schedule</ui-icon>
+  <ui-icon>today</ui-icon>
+  <ui-icon>calendar-today</ui-icon>
+  <ui-icon>date-range</ui-icon>
+  <ui-icon>hourglass-bottom</ui-icon>
+  <ui-icon>hourglass-top</ui-icon>
 </ui-html>
 
 ## Labels
@@ -205,6 +236,10 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>live_help</ui-icon>
   <ui-icon>edit_attributes</ui-icon>
   <ui-icon>note</ui-icon>
+  <ui-icon>sticker</ui-icon>
+  <ui-icon>assign</ui-icon>
+  <ui-icon>bookmarks</ui-icon>
+  <ui-icon>loyalty</ui-icon>
 </ui-html>
 
 ## Notifications
@@ -239,6 +274,7 @@ import UIIcon from '@xaota/ui/icon.js';
 
 ## Network
 <ui-html>
+  <ui-icon>api</ui-icon>
   <ui-icon>settings_ethernet</ui-icon>
   <ui-icon>wifi</ui-icon>
   <ui-icon>wifi_off</ui-icon>
@@ -247,7 +283,6 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>bluetooth_connected</ui-icon>
   <ui-icon>bluetooth_disabled</ui-icon>
   <ui-icon>bluetooth_settings</ui-icon>
-  <ui-icon>https</ui-icon>
   <ui-icon>alternate_email</ui-icon>
   <ui-icon>language</ui-icon>
   <ui-icon>sync</ui-icon>
@@ -260,6 +295,8 @@ import UIIcon from '@xaota/ui/icon.js';
 
 ## Location & Navigation
 <ui-html>
+  <ui-icon>location_on</ui-icon>
+  <ui-icon>location_off</ui-icon>
   <ui-icon>add_location</ui-icon>
   <ui-icon>edit_location</ui-icon>
   <ui-icon>place</ui-icon>
@@ -311,6 +348,7 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>play</ui-icon>
   <ui-icon>next</ui-icon>
   <ui-icon>previous</ui-icon>
+  <ui-icon>queue-next-play</ui-icon>
   <ui-icon>record-manual</ui-icon>
   <ui-icon>record-smart</ui-icon>
   <ui-icon>stop</ui-icon>
@@ -319,10 +357,11 @@ import UIIcon from '@xaota/ui/icon.js';
 ## Images, Photo / Video
 <ui-html>
   <ui-icon>theaters</ui-icon>
-  <ui-icon>video_library</ui-icon>
-  <ui-icon>insert_photo</ui-icon>
-  <ui-icon>add_a_photo</ui-icon>
-  <ui-icon>add_image</ui-icon>
+  <ui-icon>video-library</ui-icon>
+  <ui-icon>video-settings</ui-icon>
+  <ui-icon>photo-insert</ui-icon>
+  <ui-icon>photo-add</ui-icon>
+  <ui-icon>image-add</ui-icon>
   <ui-icon>gif</ui-icon>
   <ui-icon>view360</ui-icon>
   <ui-icon>compare</ui-icon>
@@ -334,10 +373,12 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>flip</ui-icon>
   <ui-icon>flip-to-back</ui-icon>
   <ui-icon>flip-to-front</ui-icon>
-  <ui-icon>photo_camera</ui-icon>
+  <ui-icon>photo-camera</ui-icon>
   <ui-icon>movie-filter</ui-icon>
   <ui-icon>wallpaper</ui-icon>
   <ui-icon>slow-motion</ui-icon>
+  <ui-icon>carousel</ui-icon>
+  <ui-icon>movie</ui-icon>
 </ui-html>
 
 ## Applications
@@ -349,32 +390,49 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>palette</ui-icon>
   <ui-icon>clear-all</ui-icon>
   <ui-icon>layers-clear</ui-icon>
+  <ui-icon>qr-scan</ui-icon>
+</ui-html>
+
+## Places
+<ui-html>
+  <ui-icon>calculate</ui-icon>
+  <ui-icon>local_grocery_store</ui-icon>
+  <ui-icon>school</ui-icon>
+  <ui-icon>wc</ui-icon>
+  <ui-icon>home</ui-icon>
+  <ui-icon>print</ui-icon>
 </ui-html>
 
 ## Аналитика и статистика
 <ui-html>
   <ui-icon>timeline</ui-icon>
   <ui-icon>data-usage</ui-icon>
-  <ui-icon>insert_chart</ui-icon>
+  <ui-icon>chart</ui-icon>
+  <ui-icon>chart-bubble</ui-icon>
+  <ui-icon>chart-table</ui-icon>
+  <ui-icon>chart-add</ui-icon>
 </ui-html>
 
 ## Прочие иконки
 <ui-html>
-  <ui-icon>apple-logo</ui-icon>
-  <ui-icon>android-logo</ui-icon>
   <ui-icon>ballot</ui-icon>
-  <ui-icon>chart-bubble</ui-icon>
   <ui-icon>cake</ui-icon>
-  <ui-icon>home</ui-icon>
-  <ui-icon>local_grocery_store</ui-icon>
-  <ui-icon>local_printshop</ui-icon>
+  <ui-icon>gift</ui-icon>
   <ui-icon>notes</ui-icon>
   <ui-icon>pets</ui-icon>
-  <ui-icon>school</ui-icon>
-  <ui-icon>wc</ui-icon>
   <ui-icon>gesture</ui-icon>
   <ui-icon>colorize</ui-icon>
-  <ui-icon>border-vertical</ui-icon>
-  <ui-icon>border-horizontal</ui-icon>
+  <ui-icon>widgets</ui-icon>
   <ui-icon>whatshot</ui-icon>
+  <ui-icon>wysiwyg</ui-icon>
+  <ui-icon>idea</ui-icon>
+</ui-html>
+
+## ROADMAP
+<ui-html>
+  <ui-icon>issues</ui-icon>
+  <ui-icon>issues-2</ui-icon>
+  <ui-icon>emoji</ui-icon>
+  <ui-icon>play-for-work</ui-icon>
+  <ui-icon>qr-code</ui-icon>
 </ui-html>
