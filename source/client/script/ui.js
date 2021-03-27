@@ -8,6 +8,7 @@ import UIProperties  from '@xaota/ui/properties.js';
 import UIProperty    from '@xaota/ui/property.js';
 import UIBlur        from '@xaota/ui/blur.js';
 import UITimestamp   from '@xaota/ui/timestamp.js';
+import UIDownload    from '@xaota/ui/download.js';
 
 // навигация
 import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';

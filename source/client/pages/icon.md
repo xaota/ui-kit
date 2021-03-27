@@ -7,8 +7,11 @@
 import UIIcon from '@xaota/ui/icon.js';
 ```
 
-## Folder & Cloud
+## Files &amp; Folders &amp; Cloud
 <ui-html>
+  <ui-icon>document</ui-icon>
+  <ui-icon>download</ui-icon>
+  <ui-icon>download-file</ui-icon>
   <ui-icon>folder</ui-icon>
   <ui-icon>folder_open</ui-icon>
   <ui-icon>folder_shared</ui-icon>
@@ -123,6 +126,7 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>note_add</ui-icon>
   <ui-icon>present-to-all</ui-icon>
   <ui-icon>swap</ui-icon>
+  <ui-icon>compress</ui-icon>
 </ui-html>
 
 ## Interface
