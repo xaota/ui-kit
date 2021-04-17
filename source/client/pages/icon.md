@@ -94,7 +94,7 @@ import UIIcon from '@xaota/ui/icon.js';
   <ui-icon>add</ui-icon>
   <ui-icon>remove</ui-icon>
   <ui-icon>remove_circle_outline</ui-icon>
-  <ui-icon>add_shopping_cart</ui-icon>
+  <ui-icon>cart-append</ui-icon>
   <ui-icon>delete-outline</ui-icon>
   <ui-icon>delete</ui-icon>
   <ui-icon>delete-forever</ui-icon>
@@ -266,14 +266,14 @@ import UIIcon from '@xaota/ui/icon.js';
 
 ## Arrows
 <ui-html>
-  <ui-icon>keyboard_arrow_down</ui-icon>
-  <ui-icon>keyboard_arrow_left</ui-icon>
-  <ui-icon>keyboard_arrow_right</ui-icon>
-  <ui-icon>keyboard_arrow_up</ui-icon>
-  <ui-icon>arrow_back</ui-icon>
-  <ui-icon>arrow_downward</ui-icon>
-  <ui-icon>arrow_forward</ui-icon>
-  <ui-icon>arrow_upward</ui-icon>
+  <ui-icon>arrow-keyboard-down</ui-icon>
+  <ui-icon>arrow-keyboard-left</ui-icon>
+  <ui-icon>arrow-keyboard-right</ui-icon>
+  <ui-icon>arrow-keyboard-up</ui-icon>
+  <ui-icon>arrow-down</ui-icon>
+  <ui-icon>arrow-left</ui-icon>
+  <ui-icon>arrow-right</ui-icon>
+  <ui-icon>arrow-up</ui-icon>
 </ui-html>
 
 ## Network
@@ -400,7 +400,7 @@ import UIIcon from '@xaota/ui/icon.js';
 ## Places
 <ui-html>
   <ui-icon>calculate</ui-icon>
-  <ui-icon>local_grocery_store</ui-icon>
+  <ui-icon>cart</ui-icon>
   <ui-icon>school</ui-icon>
   <ui-icon>wc</ui-icon>
   <ui-icon>home</ui-icon>

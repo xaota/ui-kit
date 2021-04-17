@@ -1,4 +1,4 @@
-import Component, {html, css, $} from '@xaota/ui';
+import Component, { html, css, $ } from '@xaota/ui';
 import UICopyIcon from '@xaota/ui/copy-icon.js';
 
 const style = css`
@@ -85,4 +85,4 @@ const properties = {}
     }
   }
 
-Component.init(UIHTML, 'ui-html', {attributes, properties});
+Component.init(UIHTML, 'ui-html', { attributes, properties });

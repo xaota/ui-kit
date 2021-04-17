@@ -12,6 +12,3 @@ window.addEventListener('popstate', e => {
   // console.log(href);
   page.href = href;
 });
-
-
-

@@ -1,16 +1,29 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "target": "es2020",
+    "baseUrl": "./",
     "paths": {
       "@xaota/ui": ["../../ui"],
-      "@xaota/web": ["../../web/components"],
+      "@xaota/ui/*": ["../../ui/components/*"],
+
       "javascript-std-lib": ["../../javascript-std-lib"],
-      "javascript-markdown": ["../../javascript-markdown"],
-      "javascript-markdown/*": ["../../javascript-markdown/library/*"],
+      "javascript-std-lib/*": ["../../javascript-std-lib/library/"],
+
       "javascript-color": ["../../javascript-color"],
       "javascript-color/*": ["../../javascript-color/library/*"],
+
       "javascript-canvas": ["../../javascript-canvas"],
-      "javascript-canvas/*": ["../../javascript-canvas/library/*"]
+      "javascript-canvas/*": ["../../javascript-canvas/library/*"],
+
+      "javascript-event-channel": ["../../javascript-event-channel"],
+      "javascript-event-channel/*": ["../../javascript-event-channel/*"],
+
+      "javascript-markdown": ["../../javascript-markdown"],
+      "javascript-markdown/*": ["../../javascript-markdown/library/*"],
+
+      "/script/*": ["./client/script/*"],
+      "/style/*": ["./client/style/*"],
+      "/tools/*": ["./tools/*"]
     }
   }
 }

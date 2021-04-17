@@ -1,4 +1,4 @@
-import Component, {html, css} from '@xaota/ui';
+import Component, { html, css } from '@xaota/ui';
 import marked                 from 'javascript-markdown';
 
 const style = css`
@@ -60,12 +60,12 @@ const properties = {}
     */
     constructor(markdown) {
       super();
-      if (markdown) this.store({markdown});
+      if (markdown) this.store({ markdown });
     }
 
   /** */
     render(node) {
-      const {markdown} = this.store();
+      const { markdown } = this.store();
       const html = marked(markdown);
       this.innerHTML = html;
       return this;
@@ -80,4 +80,4 @@ const properties = {}
     }
   }
 
-Component.init(UIMarkdown, 'ui-markdown', {attributes, properties});
+Component.init(UIMarkdown, 'ui-markdown', { attributes, properties });

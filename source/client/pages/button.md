@@ -103,11 +103,24 @@ const buttonC = new UIButton({label: 'текст', mode: 'primary', text: 'outli
 </ui-html>
 
 ---
+> UIButtonIconText
+
+```javascript
+import UIButtonIconText from '@xaota/ui/button-icon-text.js';
+```
+
+<ui-html>
+  <ui-button-icon-text icon="cart-append">добавить в корзину</ui-button-icon-text>
+  <ui-button-icon-text icon="cart-append" text>добавить в корзину</ui-button-icon-text>
+  <ui-button-icon-text icon="cart-append" text="outline">добавить в корзину</ui-button-icon-text>
+</ui-html>
+
+---
+> UIButtonIcon
+
 ```javascript
 import UIButtonIcon from '@xaota/ui/button-icon.js';
 ```
-
-> UIButtonIcon
 
 <ui-html>
   <ui-button-icon>attach_file</ui-button-icon>

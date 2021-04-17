@@ -16,11 +16,17 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --experimental-json-modules ./index.js"
+    "start": "node --experimental-json-modules ./index.js",
+    "lint": "./node_modules/eslint/bin/eslint.js ."
   },
   "author": "github.com/xaota",
   "license": "Unlicense",
   "devDependencies": {
-    "eslint": "latest"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
   }
 }

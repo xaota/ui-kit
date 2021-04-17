@@ -1,14 +1,19 @@
+/* eslint-disable no-unused-vars */
+
 // текст
-import UIText        from '@xaota/ui/text.js';
-import UIIcon        from '@xaota/ui/icon.js';
-import UICopyright   from '@xaota/ui/copyright.js';
-import UIChip        from '@xaota/ui/chip.js';
-import UIBrick       from '@xaota/ui/brick.js';
-import UIProperties  from '@xaota/ui/properties.js';
-import UIProperty    from '@xaota/ui/property.js';
-import UIBlur        from '@xaota/ui/blur.js';
-import UITimestamp   from '@xaota/ui/timestamp.js';
-import UIDownload    from '@xaota/ui/download.js';
+import UIText           from '@xaota/ui/text.js';
+import UIIcon           from '@xaota/ui/icon.js';
+import UICopyright      from '@xaota/ui/copyright.js';
+import UIChip           from '@xaota/ui/chip.js';
+import UIBrick          from '@xaota/ui/brick.js';
+import UIProperties     from '@xaota/ui/properties.js';
+import UIProperty       from '@xaota/ui/property.js';
+import UIBlur           from '@xaota/ui/blur.js';
+import UITimestamp      from '@xaota/ui/timestamp.js';
+import UIDownload       from '@xaota/ui/download.js';
+import UINumeric        from '@xaota/ui/numeric.js';
+import UINumericAmount  from '@xaota/ui/numeric-amount.js';
+import UINumericPercent from '@xaota/ui/numeric-percent.js';
 
 // навигация
 import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';
@@ -28,6 +33,7 @@ import UIFieldset    from '@xaota/ui/fieldset.js';
 import UISnippet     from '@xaota/ui/snippet.js';
 import UITable       from '@xaota/ui/table.js';
 import UISticky      from '@xaota/ui/sticky.js';
+import UISplit       from '@xaota/ui/split.js';
 
 // выпадушки
 import UIDrop       from '@xaota/ui/drop.js';
@@ -45,6 +51,7 @@ import UIInputChips  from '@xaota/ui/input-chips.js';
 
 // кнопки
 import UIButtonIcon              from '@xaota/ui/button-icon.js';
+import UIButtonIconText          from '@xaota/ui/button-icon-text.js';
 import UIButtonBack              from '@xaota/ui/button-back.js';
 import UIButtonUpload            from '@xaota/ui/button-upload.js';
 import UIButtonVoice             from '@xaota/ui/button-voice.js';

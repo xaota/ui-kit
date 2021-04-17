@@ -11,7 +11,7 @@ import UIFAB from '@xaota/ui/fab.js';
 <ui-html>
   <ui-fab>create</ui-fab>
   <ui-fab>person_add</ui-fab>
-  <ui-fab>arrow_upward</ui-fab>
+  <ui-fab>arrow-up</ui-fab>
   <ui-fab>play</ui-fab>
   <ui-fab>navigation</ui-fab>
   <ui-fab>send</ui-fab>
