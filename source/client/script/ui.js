@@ -14,6 +14,7 @@ import UIDownload       from '@xaota/ui/download.js';
 import UINumeric        from '@xaota/ui/numeric.js';
 import UINumericAmount  from '@xaota/ui/numeric-amount.js';
 import UINumericPercent from '@xaota/ui/numeric-percent.js';
+import UIStatistic      from '@xaota/ui/statistic.js';
 
 // навигация
 import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';
