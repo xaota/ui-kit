@@ -17,6 +17,12 @@ import UINumericPercent from '@xaota/ui/numeric-percent.js';
   <ui-numeric-amount label="eur">12.65</ui-numeric-amount>
   <br />
   <ui-numeric-percent>32.6</ui-numeric-percent>
+  <br />
+  <ui-numeric label="яблоки"> -10</ui-numeric>
+  <br />
+  <ui-numeric-amount label="usd"> -12.65</ui-numeric-amount>
+  <br />
+  <ui-numeric-percent> -2.6</ui-numeric-percent>
 </ui-html>
 
 ## Слоты

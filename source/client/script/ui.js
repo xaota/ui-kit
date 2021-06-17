@@ -22,19 +22,21 @@ import UIPagination  from '@xaota/ui/pagination.js';
 import UIArrow       from '@xaota/ui/arrow.js';
 
 // блоки
-import UIPaper       from '@xaota/ui/paper.js';
-import UIPanel       from '@xaota/ui/panel.js';
-import UIExpand      from '@xaota/ui/expand.js';
-import UIFigure      from '@xaota/ui/figure.js';
-import UICard        from '@xaota/ui/card.js';
-import UICaption     from '@xaota/ui/caption.js';
-import UIBlockquote  from '@xaota/ui/blockquote.js';
-import UIBanner      from '@xaota/ui/banner.js';
-import UIFieldset    from '@xaota/ui/fieldset.js';
-import UISnippet     from '@xaota/ui/snippet.js';
-import UITable       from '@xaota/ui/table.js';
-import UISticky      from '@xaota/ui/sticky.js';
-import UISplit       from '@xaota/ui/split.js';
+import UIPaper        from '@xaota/ui/paper.js';
+import UIPanel        from '@xaota/ui/panel.js';
+import UIExpand       from '@xaota/ui/expand.js';
+import UIFigure       from '@xaota/ui/figure.js';
+import UICard         from '@xaota/ui/card.js';
+import UICaption      from '@xaota/ui/caption.js';
+import UIBlockquote   from '@xaota/ui/blockquote.js';
+import UIBanner       from '@xaota/ui/banner.js';
+import UIFieldset     from '@xaota/ui/fieldset.js';
+import UISnippet      from '@xaota/ui/snippet.js';
+import UITable        from '@xaota/ui/table.js';
+import UISticky       from '@xaota/ui/sticky.js';
+import UISplit        from '@xaota/ui/split.js';
+import UIShowcase     from '@xaota/ui/showcase.js';
+import UIShowcaseItem from '@xaota/ui/showcase-item.js';
 
 // выпадушки
 import UIDrop       from '@xaota/ui/drop.js';
