@@ -1,16 +1,21 @@
-# Кирпичи и плитки
-Элементы, скрывающие за собой абстракцию по конкретной тематике
+# Панель навигации
+Блок для отображения группы ссылок
 
-> `UIBrick`, `UITile`
+> `UINavigation`
 
 ```javascript
-import UIBrick from '@xaota/ui/brick.js';
-import UITile  from '@xaota/ui/tile.js';
+import UINavigation from '@xaota/ui/navigation.js';
+import UILink       from '@xaota/ui/link.js';
 ```
 
 <ui-html>
-  <ui-brick>Путешествия</ui-brick>
-  <ui-tile>Путешествия</ui-tile>
+  <ui-navigation>
+    <ui-link href="//yandex.ru" blank>яндекс</ui-link>
+    <ui-link href="//google.com" blank>google</ui-link>
+    <ui-link href="//apple.com" blank selected>apple</ui-link>
+    <ui-link href="//microsoft.com" blank>microsoft</ui-link>
+    <ui-link href="//amazon.com" blank disabled>amazon</ui-link>
+  </ui-navigation>
 </ui-html>
 
 ## Слоты
@@ -41,14 +46,14 @@ import UITile  from '@xaota/ui/tile.js';
 ## Создание через JS
 
 ```javascript
-const brick = new UIBrick();
-root.appendChild(brick);
+const navigation = new UINavigation();
+root.appendChild(navigation);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-brick.addEventListener('event', e => {
+navigation.addEventListener('event', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });
@@ -59,4 +64,3 @@ brick.addEventListener('event', e => {
 ## Примечания
 
 ### Смотрите также
-

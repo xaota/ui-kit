@@ -3,9 +3,11 @@
 // текст
 import UIText           from '@xaota/ui/text.js';
 import UIIcon           from '@xaota/ui/icon.js';
+import UILink           from '@xaota/ui/link.js';
 import UICopyright      from '@xaota/ui/copyright.js';
 import UIChip           from '@xaota/ui/chip.js';
 import UIBrick          from '@xaota/ui/brick.js';
+import UITile           from '@xaota/ui/tile.js';
 import UIProperties     from '@xaota/ui/properties.js';
 import UIProperty       from '@xaota/ui/property.js';
 import UIBlur           from '@xaota/ui/blur.js';
@@ -17,6 +19,7 @@ import UINumericPercent from '@xaota/ui/numeric-percent.js';
 import UIStatistic      from '@xaota/ui/statistic.js';
 
 // навигация
+import UINavigation  from '@xaota/ui/navigation.js';
 import UIBreadcrumbs from '@xaota/ui/breadcrumbs.js';
 import UIPagination  from '@xaota/ui/pagination.js';
 import UIArrow       from '@xaota/ui/arrow.js';
@@ -114,6 +117,7 @@ import UISliderItem  from '@xaota/ui/slider-item.js';
 
 // медиа
 import UIAudio       from '@xaota/ui/audio.js';
+import UICover       from '@xaota/ui/cover.js';
 
 // сообщения
 import UIMessage     from '@xaota/ui/message.js';

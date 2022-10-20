@@ -46,7 +46,7 @@ import UIShowcaseItem from '@xaota/ui/showcase-item.js';
 
 
 ## Атрибуты
-
+* `nowrap` - `boolean` - не включать перенос строк
 * `align` - `string?=justify` - выравнивание элементов
 
 ## События
@@ -62,6 +62,8 @@ import UIShowcaseItem from '@xaota/ui/showcase-item.js';
 ### Встроенное оформление
 
 ### CSS-переменные
+#### Переменные `ui-showcase-item`
+* `--showcase-item-width` - `css width`
 
 ## Создание через JS
 

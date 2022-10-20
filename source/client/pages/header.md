@@ -4,11 +4,24 @@
 > `UIHeader`
 
 ```javascript
-import UIHeader from '@xaota/ui/header.js';
+import UIHeader     from '@xaota/ui/header.js';
+// также на этой странице используются
+import UICaption    from '@xaota/ui/caption.js';
+import UINavigation from '@xaota/ui/navigation.js';
+import UILink       from '@xaota/ui/link.js';
 ```
 
 <ui-html>
-  <ui-header></ui-header>
+  <ui-header>
+    <ui-caption>Заголовок страницы</ui-caption>
+    <ui-navigation slot="navigation">
+      <ui-link href="//yandex.ru" blank>яндекс</ui-link>
+      <ui-link href="//google.com" blank>google</ui-link>
+      <ui-link href="//apple.com" blank selected>apple</ui-link>
+      <ui-link href="//microsoft.com" blank>microsoft</ui-link>
+      <ui-link href="//amazon.com" blank disabled>amazon</ui-link>
+    </ui-navigation>
+  </ui-header>
 </ui-html>
 
 ## Потомки

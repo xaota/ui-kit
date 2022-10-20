@@ -1,32 +1,33 @@
-# Кирпичи и плитки
-Элементы, скрывающие за собой абстракцию по конкретной тематике
+# Ссылки
+Компонент для оформления ссылок
 
-> `UIBrick`, `UITile`
+> `UILink`
 
 ```javascript
-import UIBrick from '@xaota/ui/brick.js';
-import UITile  from '@xaota/ui/tile.js';
+import UILink from '@xaota/ui/link.js';
 ```
 
 <ui-html>
-  <ui-brick>Путешествия</ui-brick>
-  <ui-tile>Путешествия</ui-tile>
+  <ui-link href="//yandex.ru" blank>яндекс</ui-link>
 </ui-html>
 
 ## Слоты
-* `default` -
-
+* `default` - название ссылки
 
 ## Потомки
-
+`TextNode`
 
 ## Атрибуты
 
-* `attribute` - `type?=default` - attribute-description
+* `href` - `string?=""` - Адрес перехода
+* `icon` - название иконки
+* `blank` - открыть в новой вкладке
+* `selected`
+* `disabled`
 
 ## События
 
-* __`event`__ - event-description
+* __`click`__ - клик по ссылке
 
 ### Параметры:
 
@@ -41,14 +42,14 @@ import UITile  from '@xaota/ui/tile.js';
 ## Создание через JS
 
 ```javascript
-const brick = new UIBrick();
-root.appendChild(brick);
+const link = new UILink();
+root.appendChild(link);
 ```
 
 ## Обработка событий через JS
 
 ```javascript
-brick.addEventListener('event', e => {
+link.addEventListener('click', e => {
   const {detail} = e.detail;
   console.log(detail); // @example: detail-enum
 });
@@ -59,4 +60,3 @@ brick.addEventListener('event', e => {
 ## Примечания
 
 ### Смотрите также
-

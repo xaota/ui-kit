@@ -8,7 +8,10 @@ import UIGrid from '@xaota/ui/grid.js';
 ```
 
 <ui-html>
-  <ui-grid></ui-grid>
+  <ui-grid columns="1-2">
+    <div style="border: 1px solid red">1</div>
+    <div style="border: 1px solid yellow">2</div>
+  </ui-grid>
 </ui-html>
 
 ## Потомки
@@ -16,7 +19,7 @@ import UIGrid from '@xaota/ui/grid.js';
 
 ## Атрибуты
 
-> `attribute` - `type?=default` - attribute-description
+> `columns` - `string?="1"` - отношения в размерах столбцов через тире
 
 ## События
 
